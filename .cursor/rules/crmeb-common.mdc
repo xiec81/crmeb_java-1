@@ -1,0 +1,240 @@
+---
+description: 
+globs: crmeb/crmeb-common/**
+alwaysApply: false
+---
+
+
+# CRMEB Common模块包结构分析
+
+## 1. 整体包结构
+```
+com.zbkj.common
+  ├── annotation    // 注解类
+  ├── config       // 配置类
+  ├── constants    // 常量类
+  ├── enums        // 枚举类
+  ├── exception    // 异常类
+  ├── interceptor  // 拦截器
+  ├── model        // 数据模型
+  ├── page         // 分页相关
+  ├── request      // 请求对象
+  ├── response     // 响应对象
+  ├── token        // Token相关
+  ├── utils        // 工具类
+  ├── validation   // 验证相关
+  └── vo           // 视图对象
+```
+
+## 2. 详细包结构说明
+
+### 2.1 数据模型 (model)
+按业务模块划分的数据模型：
+
+1. **基础业务**
+   - article: 文章相关模型
+   - category: 分类相关模型
+   - product: 商品相关模型
+   - order: 订单相关模型
+   - user: 用户相关模型
+   - system: 系统相关模型
+
+2. **营销业务**
+   - seckill: 秒杀相关模型
+   - bargain: 砍价相关模型
+   - combination: 拼团相关模型
+   - coupon: 优惠券相关模型
+
+3. **扩展业务**
+   - hotel: 酒店相关模型
+   - wechat: 微信相关模型
+   - sms: 短信相关模型
+   - express: 快递相关模型
+   - finance: 财务相关模型
+
+4. **系统功能**
+   - log: 日志相关模型
+   - record: 记录相关模型
+   - gencode: 代码生成相关模型
+
+### 2.2 工具类 (utils)
+按功能划分的工具类：
+
+1. **基础工具**
+   - CrmebUtil: CRMEB核心工具类
+   - DateUtil: 日期处理工具
+   - ArrayUtil: 数组处理工具
+   - CommonUtil: 通用工具类
+   - SecurityUtil: 安全工具类
+   - SpringUtil: Spring工具类
+
+2. **文件处理**
+   - UploadUtil: 文件上传工具
+   - UploadWeChatMediaUtil: 微信媒体上传
+   - ExportUtil: 导出工具
+   - ImageMergeUtil: 图片合并工具
+   - QRCodeUtil: 二维码工具
+
+3. **网络请求**
+   - RestTemplateUtil: REST请求工具
+   - RequestUtil: 请求处理工具
+   - UrlUtil: URL处理工具
+   - WxUtil: 微信工具类
+   - WxPayUtil: 微信支付工具
+
+4. **数据处理**
+   - RedisUtil: Redis工具类
+   - ValidateFormUtil: 表单验证工具
+   - ValidateCodeUtil: 验证码工具
+   - XmlUtil: XML处理工具
+   - AESUtil: 加密工具
+
+### 2.3 常量类 (constants)
+按业务模块划分的常量：
+
+1. **系统常量**
+   - Constants: 系统通用常量
+   - SysConfigConstants: 系统配置常量
+   - RegularConstants: 正则表达式常量
+   - RedisConstatns: Redis相关常量
+
+2. **业务常量**
+   - UserConstants: 用户相关常量
+   - ProductConstants: 商品相关常量
+   - PayConstants: 支付相关常量
+   - CategoryConstants: 分类相关常量
+   - CouponConstants: 优惠券相关常量
+
+3. **第三方服务常量**
+   - WeChatConstants: 微信相关常量
+   - SmsConstants: 短信相关常量
+   - AlipayConfig: 支付宝配置
+   - YlyConstants: 易联云相关常量
+   - OnePassConstants: 一键通相关常量
+
+4. **业务记录常量**
+   - ExperienceRecordConstants: 经验记录常量
+   - IntegralRecordConstants: 积分记录常量
+   - BrokerageRecordConstants: 佣金记录常量
+   - NotifyConstants: 通知相关常量
+   - TaskConstants: 任务相关常量
+
+## 3. 包职责说明
+
+### 3.1 基础功能包
+1. **注解包 (annotation)**
+   - 自定义注解定义
+   - 注解处理器
+   - 注解元数据
+
+2. **配置包 (config)**
+   - 系统配置类
+   - 第三方服务配置
+   - 数据源配置
+
+3. **异常包 (exception)**
+   - 自定义异常类
+   - 异常处理器
+   - 异常工具类
+
+4. **拦截器包 (interceptor)**
+   - 请求拦截器
+   - 权限拦截器
+   - 日志拦截器
+
+### 3.2 数据包
+1. **请求响应包**
+   - request: 请求对象定义
+   - response: 响应对象定义
+   - vo: 视图对象定义
+
+2. **分页包 (page)**
+   - 分页请求对象
+   - 分页响应对象
+   - 分页工具类
+
+3. **Token包 (token)**
+   - Token生成器
+   - Token验证器
+   - Token工具类
+
+### 3.3 验证包 (validation)
+1. **数据验证**
+   - 参数验证
+   - 业务验证
+   - 规则验证
+
+## 4. 代码组织规范
+
+### 4.1 命名规范
+1. **包命名**
+   - 使用小写字母
+   - 使用点号分隔
+   - 包名要有意义
+
+2. **类命名**
+   - 使用大驼峰命名
+   - 类名要体现功能
+   - 避免使用缩写
+
+### 4.2 代码规范
+1. **注释规范**
+   - 类注释
+   - 方法注释
+   - 关键代码注释
+
+2. **异常处理**
+   - 统一异常处理
+   - 业务异常定义
+   - 异常日志记录
+
+## 5. 扩展建议
+
+### 5.1 包结构优化
+1. **模块化**
+   - 按业务模块划分包
+   - 保持包结构清晰
+   - 避免包间循环依赖
+
+2. **功能聚合**
+   - 相关功能集中
+   - 减少包间依赖
+   - 提高代码复用
+
+### 5.2 代码质量
+1. **代码审查**
+   - 遵循编码规范
+   - 保持代码简洁
+   - 注重代码复用
+
+2. **测试覆盖**
+   - 单元测试
+   - 集成测试
+   - 性能测试
+
+## 6. 注意事项
+
+### 6.1 开发规范
+1. **代码提交**
+   - 遵循Git规范
+   - 提交信息规范
+   - 代码审查流程
+
+2. **文档维护**
+   - 及时更新文档
+   - 注释完整
+   - API文档同步
+
+### 6.2 安全规范
+1. **数据安全**
+   - 敏感数据加密
+   - 数据验证
+   - 权限控制
+
+2. **代码安全**
+   - 避免硬编码
+   - 防止SQL注入
+   - XSS防护
+
+这个分析文档详细描述了CRMEB Common模块的包结构、职责和规范，可以作为开发团队的参考指南。建议将其保存为Markdown格式的规则文件，以便团队成员查阅和遵循。
+

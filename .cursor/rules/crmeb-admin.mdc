@@ -1,0 +1,280 @@
+---
+description: 
+globs: crmeb/crmeb-admin/**
+alwaysApply: false
+---
+# CRMEB Admin模块包结构分析
+
+## 1. 整体包结构
+```
+com.zbkj
+  └── admin          // 后台管理核心包
+      ├── controller // 控制器层， 所有的后台管理系统controller都放这里，平铺，不需要子目录
+      ├── service    // 服务层, 遗留的少许Service，后续新建不能放这里，应该放到crmeb-service项目中
+      ├── vo         // 视图对象
+      ├── config     // 配置类
+      ├── filter     // 过滤器
+      ├── acpect     // 切面类
+      ├── task       // 定时任务
+      ├── pub        // 公共类
+      └── manager    // 业务管理层
+```
+
+## 2. 详细包结构说明
+
+### 2.1 控制器层 (controller)
+按业务模块划分的控制器：
+
+1. **系统管理**
+   - SystemAdminController: 管理员管理
+   - SystemRoleController: 角色管理
+   - SystemMenuController: 菜单管理
+   - SystemConfigController: 系统配置
+   - SystemNotificationController: 系统通知
+   - SystemStoreController: 门店管理
+   - SystemStoreStaffController: 门店员工管理
+   - SystemAttachmentController: 附件管理
+   - SystemCityController: 城市管理
+   - SystemGroupController: 组合数据管理
+   - SystemFormTempController: 表单模板管理
+
+2. **用户管理**
+   - UserController: 用户管理
+   - UserGroupController: 用户分组
+   - UserLevelController: 用户等级
+   - UserTagController: 用户标签
+   - UserExtractController: 用户提现
+   - UserRechargeController: 用户充值
+   - UserIntegralController: 用户积分
+
+3. **商品管理**
+   - StoreProductController: 商品管理
+   - StoreProductReplyController: 商品评价
+   - CategoryController: 商品分类
+   - StoreSeckillController: 秒杀商品
+   - StoreBargainController: 砍价商品
+   - StoreCombinationController: 拼团商品
+   - StoreProductRuleController: 商品规则
+   - StoreHotelController: 酒店管理
+   - StoreHotelRoomController: 酒店房间管理
+
+4. **订单管理**
+   - StoreOrderController: 订单管理
+   - StoreOrderStatusController: 订单状态
+   - ShippingTemplatesController: 运费模板
+   - ShippingTemplatesFreeController: 运费模板免费
+   - ShippingTemplatesRegionController: 运费模板区域
+   - SystemWriteOffOrderController: 核销订单
+
+5. **营销管理**
+   - StoreCouponController: 优惠券管理
+   - StoreCouponUserController: 优惠券用户
+   - StoreSeckillMangerController: 秒杀管理
+   - StoreBargainController: 砍价管理
+   - StoreCombinationController: 拼团管理
+
+6. **微信管理**
+   - WeChatController: 微信管理
+   - WeChatAdminController: 微信后台
+   - WechatReplyController: 微信回复
+   - WechatMediaController: 微信媒体
+   - WechatCallbackController: 微信回调
+   - TemplateMessageController: 模板消息
+
+7. **其他功能**
+   - UploadController: 文件上传
+   - ExcelController: Excel处理
+   - HomeController: 首页管理
+   - FundsMonitorController: 资金监控
+   - ExpressController: 快递管理
+   - ArticleController: 文章管理
+   - RetailShopController: 零售店铺
+   - OnePassController: 一键通
+   - YlyPrintController: 易联云打印
+   - SmsRecordController: 短信记录
+   - CodeGenerator: 代码生成器
+
+### 2.2 服务层 (service)
+- AdminLoginService: 管理员登录服务
+- ValidateCodeService: 验证码服务
+- WeChatMessageService: 微信消息服务
+
+### 2.3 视图对象 (vo)
+- BaseMessageVo: 基础消息对象
+- MessageImageVo: 图片消息对象
+- MessageVoiceVo: 语音消息对象
+- MessageTextVo: 文本消息对象
+- MessageReplyDataVo: 回复数据对象
+- ValidateCode: 验证码对象
+
+## 3. 包职责说明
+
+### 3.1 系统管理职责
+1. **基础管理**
+   - 管理员账号管理
+   - 角色权限管理
+   - 系统配置管理
+   - 菜单管理
+   - 系统通知
+
+2. **门店管理**
+   - 门店信息管理
+   - 门店员工管理
+   - 门店核销管理
+
+3. **系统配置**
+   - 附件管理
+   - 城市管理
+   - 组合数据管理
+   - 表单模板管理
+
+### 3.2 用户管理职责
+1. **用户信息**
+   - 用户基础信息
+   - 用户分组管理
+   - 用户等级管理
+   - 用户标签管理
+
+2. **用户资金**
+   - 用户提现管理
+   - 用户充值管理
+   - 用户积分管理
+
+### 3.3 商品管理职责
+1. **基础商品**
+   - 商品信息管理
+   - 商品分类管理
+   - 商品评价管理
+   - 商品规则管理
+
+2. **特殊商品**
+   - 酒店管理
+   - 酒店房间管理
+   - 秒杀商品管理
+   - 砍价商品管理
+   - 拼团商品管理
+
+### 3.4 订单管理职责
+1. **订单处理**
+   - 订单信息管理
+   - 订单状态管理
+   - 订单核销管理
+
+2. **物流管理**
+   - 运费模板管理
+   - 快递管理
+   - 物流跟踪
+
+### 3.5 营销管理职责
+1. **优惠券**
+   - 优惠券管理
+   - 优惠券发放
+   - 优惠券使用
+
+2. **活动管理**
+   - 秒杀活动
+   - 砍价活动
+   - 拼团活动
+
+### 3.6 微信管理职责
+1. **基础功能**
+   - 微信配置
+   - 消息管理
+   - 素材管理
+   - 自动回复
+
+2. **高级功能**
+   - 模板消息
+   - 微信回调
+   - 微信支付
+
+## 4. 代码组织规范
+
+### 4.1 命名规范
+1. **包命名**
+   - 使用小写字母
+   - 使用点号分隔
+   - 包名要有意义
+
+2. **类命名**
+   - 使用大驼峰命名
+   - 类名要体现功能
+   - 避免使用缩写
+
+### 4.2 分层规范
+1. **控制层**
+   - 处理请求响应
+   - 参数校验
+   - 调用服务层
+
+2. **服务层**
+   - 业务逻辑处理
+   - 事务管理
+   - 数据转换
+
+3. **管理层**
+   - 复杂业务处理
+   - 多服务协调
+   - 缓存管理
+
+### 4.3 代码规范
+1. **注释规范**
+   - 类注释
+   - 方法注释
+   - 关键代码注释
+
+2. **异常处理**
+   - 统一异常处理
+   - 业务异常定义
+   - 异常日志记录
+
+## 5. 扩展建议
+
+### 5.1 包结构优化
+1. **模块化**
+   - 按业务模块划分包
+   - 保持包结构清晰
+   - 避免包间循环依赖
+
+2. **分层管理**
+   - 明确各层职责
+   - 保持层次清晰
+   - 便于维护和扩展
+
+### 5.2 代码质量
+1. **代码审查**
+   - 遵循编码规范
+   - 保持代码简洁
+   - 注重代码复用
+
+2. **测试覆盖**
+   - 单元测试
+   - 集成测试
+   - 性能测试
+
+## 6. 注意事项
+
+### 6.1 开发规范
+1. **代码提交**
+   - 遵循Git规范
+   - 提交信息规范
+   - 代码审查流程
+
+2. **文档维护**
+   - 及时更新文档
+   - 注释完整
+   - API文档同步
+
+### 6.2 安全规范
+1. **权限控制**
+   - 接口权限控制
+   - 数据权限控制
+   - 操作日志记录
+
+2. **数据安全**
+   - 敏感数据加密
+   - SQL注入防护
+   - XSS防护
+
+这个更新后的分析文档基于最新的文件系统结构，提供了更准确的包结构说明和职责划分。建议将其保存为Markdown格式的规则文件，以便团队成员查阅和遵循。
+

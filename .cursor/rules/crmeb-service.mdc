@@ -1,0 +1,257 @@
+---
+description: 
+globs: crmeb/crmeb-service/**
+alwaysApply: false
+---
+# CRMEB Service模块包结构分析
+
+## 1. 整体包结构
+```
+com.zbkj
+  └── service        // 服务层核心包
+      ├── service    // 服务接口层, 所有的新建的Service都放在这里，不用根据业务再分子目录
+      ├── dao        // 数据访问层, 所有的新建的Dao/Mapper都放在这里，不用根据业务再分子目录
+      ├── util       // 工具类
+      └── delete     // 
+```
+
+## 2. 详细包结构说明
+
+### 2.1 服务接口层 (service)
+按业务模块划分的服务接口：
+
+1. **用户中心服务**
+   - UserService: 用户管理
+   - UserAddressService: 用户地址
+   - UserBillService: 用户账单
+   - UserBrokerageRecordService: 用户佣金记录
+   - UserExtractService: 用户提现
+   - UserGroupService: 用户分组
+   - UserIntegralRecordService: 用户积分记录
+   - UserLevelService: 用户等级
+   - UserRechargeService: 用户充值
+   - UserSignService: 用户签到
+   - UserTokenService: 用户令牌
+   - UserVisitRecordService: 用户访问记录
+
+2. **商品相关服务**
+   - StoreProductService: 商品管理
+   - StoreProductAttrService: 商品属性
+   - StoreProductAttrValueService: 商品属性值
+   - StoreProductDescriptionService: 商品描述
+   - StoreProductRelationService: 商品关联
+   - StoreProductReplyService: 商品评价
+   - StoreProductRuleService: 商品规则
+   - StoreProductCouponService: 商品优惠券
+
+3. **订单相关服务**
+   - StoreOrderService: 订单管理
+   - StoreOrderInfoService: 订单信息
+   - StoreOrderStatusService: 订单状态
+   - StoreOrderTaskService: 订单任务
+   - StoreOrderVerification: 订单验证
+   - StoreOrderRefundService: 订单退款
+
+4. **营销活动服务**
+   - StoreSeckillService: 秒杀活动
+   - StoreBargainService: 砍价活动
+   - StoreCombinationService: 拼团活动
+   - StorePinkService: 拼单活动
+   - StoreCouponService: 优惠券
+   - StoreCouponUserService: 用户优惠券
+
+5. **系统管理服务**
+   - SystemAdminService: 管理员
+   - SystemConfigService: 系统配置
+   - SystemMenuService: 系统菜单
+   - SystemRoleService: 系统角色
+   - SystemStoreService: 系统店铺
+   - SystemUserLevelService: 系统用户等级
+
+6. **微信相关服务**
+   - WechatPublicService: 公众号
+   - WechatReplyService: 微信回复
+   - WechatUserService: 微信用户
+   - WechatMediaService: 微信媒体
+   - WechatPayInfoService: 微信支付
+   - WechatCallbackService: 微信回调
+
+7. **其他功能服务**
+   - UploadService: 上传服务
+   - ExpressService: 快递服务
+   - SmsService: 短信服务
+   - LogisticService: 物流服务
+   - CategoryService: 分类服务
+   - ArticleService: 文章服务
+
+### 2.2 数据访问层 (dao)
+与service层对应的数据访问接口：
+
+1. **用户中心DAO**
+   - UserDao
+   - UserAddressDao
+   - UserBillDao
+   - UserBrokerageRecordDao
+   - UserExtractDao
+   - UserGroupDao
+   - UserIntegralRecordDao
+   - UserLevelDao
+   - UserRechargeDao
+   - UserSignDao
+   - UserTokenDao
+   - UserVisitRecordDao
+
+2. **商品相关DAO**
+   - StoreProductDao
+   - StoreProductAttrDao
+   - StoreProductAttrValueDao
+   - StoreProductDescriptionDao
+   - StoreProductRelationDao
+   - StoreProductReplyDao
+   - StoreProductRuleDao
+   - StoreProductCouponDao
+
+3. **订单相关DAO**
+   - StoreOrderDao
+   - StoreOrderInfoDao
+   - StoreOrderStatusDao
+   - StoreOrderTaskDao
+
+4. **营销活动DAO**
+   - StoreSeckillDao
+   - StoreBargainDao
+   - StoreCombinationDao
+   - StorePinkDao
+   - StoreCouponDao
+   - StoreCouponUserDao
+
+5. **系统管理DAO**
+   - SystemAdminDao
+   - SystemConfigDao
+   - SystemMenuDao
+   - SystemRoleDao
+   - SystemStoreDao
+   - SystemUserLevelDao
+
+6. **微信相关DAO**
+   - WechatPublicDao
+   - WechatReplyDao
+   - WechatUserDao
+   - WechatMediaDao
+   - WechatPayInfoDao
+   - WechatCallbackDao
+
+## 3. 包职责说明
+
+### 3.1 服务层职责
+1. **业务逻辑处理**
+   - 实现具体的业务逻辑
+   - 处理业务规则
+   - 数据转换和验证
+
+2. **事务管理**
+   - 事务控制
+   - 数据一致性保证
+   - 异常处理
+
+3. **服务编排**
+   - 服务组合
+   - 流程编排
+   - 服务调用
+
+### 3.2 数据访问层职责
+1. **数据操作**
+   - 数据库访问
+   - SQL执行
+   - 数据映射
+
+2. **数据持久化**
+   - 实体映射
+   - 数据转换
+   - 缓存管理
+
+## 4. 代码组织规范
+
+### 4.1 命名规范
+1. **接口命名**
+   - 使用Service后缀
+   - 使用Dao后缀
+   - 名称要体现功能
+
+2. **方法命名**
+   - 动词开头
+   - 语义明确
+   - 符合业务含义
+
+### 4.2 分层规范
+1. **服务层**
+   - 业务逻辑封装
+   - 事务管理
+   - 服务编排
+
+2. **数据访问层**
+   - 数据操作封装
+   - SQL管理
+   - 数据映射
+
+### 4.3 代码规范
+1. **注释规范**
+   - 接口注释
+   - 方法注释
+   - 参数注释
+
+2. **异常处理**
+   - 统一异常处理
+   - 业务异常定义
+   - 异常日志记录
+
+## 5. 扩展建议
+
+### 5.1 包结构优化
+1. **模块化**
+   - 按业务模块划分包
+   - 保持包结构清晰
+   - 避免包间循环依赖
+
+2. **分层管理**
+   - 明确各层职责
+   - 保持层次清晰
+   - 便于维护和扩展
+
+### 5.2 代码质量
+1. **代码审查**
+   - 遵循编码规范
+   - 保持代码简洁
+   - 注重代码复用
+
+2. **测试覆盖**
+   - 单元测试
+   - 集成测试
+   - 性能测试
+
+## 6. 注意事项
+
+### 6.1 开发规范
+1. **代码提交**
+   - 遵循Git规范
+   - 提交信息规范
+   - 代码审查流程
+
+2. **文档维护**
+   - 及时更新文档
+   - 注释完整
+   - API文档同步
+
+### 6.2 安全规范
+1. **数据安全**
+   - 敏感数据加密
+   - 防止SQL注入
+   - 权限控制
+
+2. **性能优化**
+   - 数据库优化
+   - 缓存使用
+   - 并发处理
+
+这个分析文档详细描述了CRMEB Service模块的包结构、职责和规范，可以作为开发团队的参考指南。建议将其保存为Markdown格式的规则文件，以便团队成员查阅和遵循。
+

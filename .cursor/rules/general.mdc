@@ -21,16 +21,16 @@ alwaysApply: true
   是一个java maven项目，包括4个java spring boot 2项目模块。 pom.xml统一管理依赖版本。 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
 
 - crmeb/crmeb-admin
-  是一个spring boot 2项目，为/admin后端管理系统提供接口, 依赖spring boot模块 crmeb/crmeb-service,请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+  是一个spring boot 2项目，为/admin后端管理系统提供接口, 依赖spring boot模块 crmeb/crmeb-service,请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)  [crmeb-admin.mdc](mdc:.cursor/rules/crmeb-admin.mdc)
 
 - crmeb/crmeb-front
-  是一个spring boot 2项目，为/app前端应用提供接口,依赖spring boot 模块 crmeb/crmeb-service, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+  是一个spring boot 2项目，为/app前端应用提供接口,依赖spring boot 模块 crmeb/crmeb-service, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc) [crmeb-front.mdc](mdc:.cursor/rules/crmeb-front.mdc)
 
 - crmeb/crmeb-service
-  是一个spring boot 2库项目， 供crmeb/crmeb-admin 和crmeb/crmeb-front 引用， 依赖spring boot模块crmeb/crmeb-common, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+  是一个spring boot 2库项目， 供crmeb/crmeb-admin 和crmeb/crmeb-front 引用， 依赖spring boot模块crmeb/crmeb-common, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)  [crmeb-service.mdc](mdc:.cursor/rules/crmeb-service.mdc)
 
 - crmeb/crmeb-common
-  是一个spring boot 2库项目， 供crmeb/crmeb-service 引用。 其他spring boot项目的外部依赖都写在这个项目的pom.xml文件中。请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+  是一个spring boot 2库项目， 供crmeb/crmeb-service 引用。 其他spring boot项目的外部依赖都写在这个项目的pom.xml文件中。请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc) [crmeb-common.mdc](mdc:.cursor/rules/crmeb-common.mdc)
 
 ## 业务对象/表结构
 由于使用了mybatis的技术栈， 没有Entity实体类， 对应的关键业务对象位于 crmeb/crmeb-common/src/main/java/com/zbkj/common/model 目录下面。 如果有些字段和表结构有矛盾的， 最终以数据库建表脚本为准：crmeb/sql/Crmeb_1.3.4.sql. 

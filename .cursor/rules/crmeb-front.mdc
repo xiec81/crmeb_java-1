@@ -1,0 +1,216 @@
+---
+description: 
+globs: crmeb/crmeb-front/**
+alwaysApply: false
+---
+# CRMEB Front模块包结构分析
+
+## 1. 整体包结构
+```
+com.zbkj
+  └── front          // 前台接口核心包
+      ├── controller // 控制器层,所有的前端controller都平铺放在这里，不需要子目录
+      ├── service    // 服务层，遗留的少许Service，后续新建不能放这里，应该放到crmeb-service项目中
+      ├── config     // 配置类
+      ├── filter     // 过滤器
+      ├── interceptor // 拦截器
+      ├── pub        // 公共类
+      └── util       // 工具类
+```
+
+## 2. 详细包结构说明
+
+### 2.1 控制器层 (controller)
+按业务模块划分的控制器：
+
+1. **用户中心**
+   - UserController: 用户管理
+   - LoginController: 登录管理
+   - EmailLoginController: 邮箱登录
+   - UserAddressController: 用户地址
+   - UserCollectController: 用户收藏
+   - UserCouponController: 用户优惠券
+   - UserRechargeController: 用户充值
+   - UserSignController: 用户签到
+
+2. **商品相关**
+   - ProductController: 商品管理
+   - StoreController: 店铺管理
+   - StoreHotelController: 酒店管理
+   - StoreHotelRoomController: 酒店房间
+   - CartController: 购物车
+   - ArticleController: 文章管理
+
+3. **订单相关**
+   - StoreOrderController: 订单管理
+   - PayController: 支付管理
+
+4. **营销活动**
+   - SecKillController: 秒杀活动
+   - BargainController: 砍价活动
+   - CombinationController: 拼团活动
+   - CouponController: 优惠券
+
+5. **其他功能**
+   - IndexController: 首页管理
+   - WeChatController: 微信管理
+   - QrCodeController: 二维码
+   - UploadFrontController: 文件上传
+   - CityController: 城市管理
+   - LocaleController: 国际化
+
+### 2.2 服务层 (service)
+按功能划分的服务：
+
+1. **核心服务**
+   - LoginService: 登录服务
+   - UserCenterService: 用户中心服务
+   - ProductService: 商品服务
+   - IndexService: 首页服务
+   - QrCodeService: 二维码服务
+
+## 3. 包职责说明
+
+### 3.1 用户中心职责
+1. **用户管理**
+   - 用户注册登录
+   - 用户信息管理
+   - 用户地址管理
+   - 用户收藏管理
+
+2. **用户资产**
+   - 优惠券管理
+   - 充值管理
+   - 签到管理
+
+### 3.2 商品相关职责
+1. **商品管理**
+   - 商品信息展示
+   - 商品分类管理
+   - 商品搜索
+   - 商品收藏
+
+2. **购物车**
+   - 购物车管理
+   - 商品选择
+   - 价格计算
+
+3. **特殊商品**
+   - 酒店管理
+   - 酒店房间管理
+   - 文章管理
+
+### 3.3 订单相关职责
+1. **订单管理**
+   - 订单创建
+   - 订单支付
+   - 订单查询
+   - 订单取消
+
+2. **支付管理**
+   - 支付方式
+   - 支付流程
+   - 支付回调
+
+### 3.4 营销活动职责
+1. **活动管理**
+   - 秒杀活动
+   - 砍价活动
+   - 拼团活动
+   - 优惠券
+
+### 3.5 系统功能职责
+1. **基础功能**
+   - 首页管理
+   - 文件上传
+   - 城市管理
+   - 国际化
+
+2. **第三方集成**
+   - 微信管理
+   - 二维码生成
+
+## 4. 代码组织规范
+
+### 4.1 命名规范
+1. **包命名**
+   - 使用小写字母
+   - 使用点号分隔
+   - 包名要有意义
+
+2. **类命名**
+   - 使用大驼峰命名
+   - 类名要体现功能
+   - 避免使用缩写
+
+### 4.2 分层规范
+1. **控制层**
+   - 处理请求响应
+   - 参数校验
+   - 调用服务层
+
+2. **服务层**
+   - 业务逻辑处理
+   - 事务管理
+   - 数据转换
+
+### 4.3 代码规范
+1. **注释规范**
+   - 类注释
+   - 方法注释
+   - 关键代码注释
+
+2. **异常处理**
+   - 统一异常处理
+   - 业务异常定义
+   - 异常日志记录
+
+## 5. 扩展建议
+
+### 5.1 包结构优化
+1. **模块化**
+   - 按业务模块划分包
+   - 保持包结构清晰
+   - 避免包间循环依赖
+
+2. **分层管理**
+   - 明确各层职责
+   - 保持层次清晰
+   - 便于维护和扩展
+
+### 5.2 代码质量
+1. **代码审查**
+   - 遵循编码规范
+   - 保持代码简洁
+   - 注重代码复用
+
+2. **测试覆盖**
+   - 单元测试
+   - 集成测试
+   - 性能测试
+
+## 6. 注意事项
+
+### 6.1 开发规范
+1. **代码提交**
+   - 遵循Git规范
+   - 提交信息规范
+   - 代码审查流程
+
+2. **文档维护**
+   - 及时更新文档
+   - 注释完整
+   - API文档同步
+
+### 6.2 安全规范
+1. **接口安全**
+   - 接口权限控制
+   - 数据验证
+   - 防刷机制
+
+2. **数据安全**
+   - 敏感数据加密
+   - 防止SQL注入
+   - XSS防护
+
+这个分析文档详细描述了CRMEB Front模块的包结构、职责和规范，可以作为开发团队的参考指南。建议将其保存为Markdown格式的规则文件，以便团队成员查阅和遵循。
