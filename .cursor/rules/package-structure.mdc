@@ -1,9 +1,4 @@
----
-description: 
-globs: 
-alwaysApply: true
----
- # CRMEB Java项目包结构规范
+# CRMEB Java项目包结构规范
 
 ## 1. 基础包结构
 ```
@@ -160,4 +155,4 @@ com.zbkj
           └── order
               ├── StoreOrder.java
               └── OrderRefund.java
-```
+``` 

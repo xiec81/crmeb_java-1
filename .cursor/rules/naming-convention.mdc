@@ -1,9 +1,4 @@
----
-description: 
-globs: 
-alwaysApply: true
----
- # CRMEB Java项目命名规范
+# CRMEB Java项目命名规范
 
 ## 1. 类命名规范
 
@@ -218,4 +213,4 @@ alwaysApply: true
 ### 7.2 生成后检查
 1. 检查生成的类名是否合适
 2. 检查方法名是否清晰
-3. 检查变量名是否有意义
+3. 检查变量名是否有意义 
