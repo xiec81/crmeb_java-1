@@ -62,6 +62,8 @@ public class WebConfig implements WebMvcConfigurer {
                 excludePathPatterns("/api/front/login/mobile").
                 excludePathPatterns("/api/front/login").
                 excludePathPatterns("/api/front/sendCode").
+                excludePathPatterns("/api/front/sendEmailCode").
+                excludePathPatterns("/api/front/login/email").
                 excludePathPatterns("/api/front/wechat/**").
                 excludePathPatterns("/api/front/search/keyword").
                 excludePathPatterns("/api/front/share").
@@ -102,12 +104,16 @@ public class WebConfig implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 
+    /**
+     * 注册过滤器
+     */
     @Bean
-    public FilterRegistrationBean filterRegister()
-    {
-        //注册过滤器
-        FilterRegistrationBean registration = new FilterRegistrationBean(responseFilter());
-        registration.addUrlPatterns("/*");
+    public FilterRegistrationBean<ResponseFilter> filterRegister() {
+        FilterRegistrationBean<ResponseFilter> registration = new FilterRegistrationBean<>();
+        registration.setFilter(new ResponseFilter());
+        registration.addUrlPatterns("/api/front/*");
+        registration.setName("responseFilter");
+        registration.setOrder(1);
         return registration;
     }
 

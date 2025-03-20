@@ -1,0 +1,72 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:46.764",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.737",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:45.358",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.696",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.f.support.DisposableBeanAdapter",
+                    "message": "Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:00.611",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:44.134",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:47.096",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:42:28.257",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:50:17.080",
+                    "level": "WARN",
+                    "thread": "main",
+                    "class": "o.m.spring.mapper.ClassPathMapperScanner",
+                    "message": "No MyBatis mapper was found in '[com.zbkj.admin]' package. Please check your configuration." }
+                    

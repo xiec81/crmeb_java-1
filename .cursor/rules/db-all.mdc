@@ -1,0 +1,696 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+CRMEB 数据库表结构
+1. 用户相关表
+## eb_user (用户表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| uid | int(10) unsigned | 用户id | 主键 |
+| account | varchar(32) | 用户账号 | - |
+| pwd | varchar(255) | 用户密码 | - |
+| real_name | varchar(25) | 真实姓名 | - |
+| birthday | int(11) | 生日 | - |
+| card_id | varchar(20) | 身份证号码 | - |
+| mark | varchar(255) | 用户备注 | - |
+| partner_id | int(11) | 合伙人id | - |
+| group_id | int(11) | 用户分组id | - |
+| tag_id | varchar(255) | 用户标签id | - |
+| nickname | varchar(50) | 用户昵称 | - |
+| avatar | varchar(255) | 用户头像 | - |
+| phone | char(15) | 手机号码 | - |
+| add_ip | varchar(16) | 添加ip | - |
+| last_ip | varchar(16) | 最后一次登录ip | - |
+| now_money | decimal(8,2) | 用户余额 | - |
+| brokerage_price | decimal(8,2) | 佣金金额 | - |
+| integral | decimal(8,2) | 用户剩余积分 | - |
+| exp | decimal(8,2) | 用户剩余经验 | - |
+| sign_num | int(11) | 连续签到天数 | - |
+| status | tinyint(1) | 1为正常，0为禁止 | - |
+| level | tinyint(1) | 等级 | - |
+| spread_uid | int(11) | 推广人id | - |
+| spread_time | datetime | 推广员关联时间 | - |
+| user_type | varchar(32) | 用户类型 | - |
+| is_promoter | tinyint(1) | 是否为推广员 | - |
+| pay_count | int(11) | 用户购买次数 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+| last_time | datetime | 最后一次登录时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+## eb_user_address (用户地址表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 地址id | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| real_name | varchar(32) | 收货人姓名 | - |
+| phone | varchar(16) | 收货人电话 | - |
+| province | varchar(64) | 省份 | - |
+| city | varchar(64) | 城市 | - |
+| district | varchar(64) | 区县 | - |
+| detail | varchar(256) | 详细地址 | - |
+| post_code | varchar(20) | 邮编 | - |
+| longitude | varchar(16) | 经度 | - |
+| latitude | varchar(16) | 纬度 | - |
+| is_default | tinyint(1) | 是否默认 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+## eb_user_bill (用户账单表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户账单id | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| link_id | varchar(32) | 关联id | - |
+| pm | tinyint(1) | 0 = 支出 1 = 获得 | - |
+| title | varchar(64) | 账单标题 | - |
+| category | varchar(64) | 明细种类 | - |
+| type | varchar(64) | 明细类型 | - |
+| number | decimal(8,2) | 明细数字 | - |
+| balance | decimal(8,2) | 剩余数字 | - |
+| mark | varchar(255) | 备注 | - |
+| add_time | datetime | 添加时间 | - |
+| status | tinyint(1) | 0 = 带确定 1 = 有效 -1 = 无效 | - |
+
+## eb_user_token (用户token表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户token id | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| token | varchar(255) | 用户token | - |
+| expires_time | datetime | 过期时间 | - |
+| create_time | datetime | 创建时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+2. 商品相关表
+eb_store_product (商品表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品id | 主键 |
+| mer_id | int(10) unsigned | 商户Id | - |
+| image | varchar(256) | 商品图片 | - |
+| slider_image | varchar(2000) | 轮播图 | - |
+| store_name | varchar(128) | 商品名称 | - |
+| store_info | varchar(256) | 商品简介 | - |
+| keyword | varchar(256) | 关键字 | - |
+| bar_code | varchar(15) | 产品条码 | - |
+| cate_id | varchar(64) | 分类id | 关联eb_store_category.id |
+| price | decimal(8,2) | 商品价格 | - |
+| vip_price | decimal(8,2) | 会员价格 | - |
+| ot_price | decimal(8,2) | 市场价 | - |
+| postage | decimal(8,2) | 邮费 | - |
+| unit_name | varchar(32) | 单位名 | - |
+| sort | smallint(11) | 排序 | - |
+| sales | int(10) unsigned | 销量 | - |
+| stock | int(10) unsigned | 库存 | - |
+| is_show | tinyint(1) | 状态 | - |
+| is_hot | tinyint(1) | 是否热卖 | - |
+| is_benefit | tinyint(1) | 是否优惠 | - |
+| is_best | tinyint(1) | 是否精品 | - |
+| is_new | tinyint(1) | 是否新品 | - |
+| description | text | 产品描述 | - |
+| is_postage | tinyint(1) | 是否包邮 | - |
+| give_integral | decimal(8,2) | 获得积分 | - |
+| cost | decimal(8,2) | 成本价 | - |
+| is_good | tinyint(1) | 是否优品推荐 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | int(11) | 添加时间 | - |
+| ficti | int(10) | 虚拟销量 | - |
+| is_seckill | tinyint(1) | 秒杀状态 | - |
+| is_bargain | tinyint(1) | 砍价状态 | - |
+| is_good_product | tinyint(1) | 好物推荐 | - |
+| is_sub | tinyint(1) | 是否单独分佣 | - |
+| temp_id | int(10) | 运费模板ID | - |
+| spec_type | tinyint(1) | 规格 0单 1多 | - |
+| product_type | tinyint(1) | 商品类型 | - |
+
+
+eb_store_category (商品分类表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品分类表ID | 主键 |
+| pid | int(10) unsigned | 父id | 自关联id |
+| cate_name | varchar(50) | 分类名称 | - |
+| sort | int(11) | 排序 | - |
+| pic | varchar(255) | 图标 | - |
+| is_show | tinyint(1) | 是否显示 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_store_product_attr (商品属性表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品属性ID | 主键 |
+| product_id | int(10) unsigned | 商品ID | 关联eb_store_product.id |
+| attr_name | varchar(32) | 属性名 | - |
+| attr_values | varchar(256) | 属性值 | - |
+| attr_value | varchar(128) | 属性值 | - |
+| is_show | tinyint(1) | 是否显示 | - |
+| attr_type | varchar(32) | 属性类型 | - |
+| attr_type_value | varchar(32) | 属性类型值 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_store_product_attr_value (商品属性值表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品属性值ID | 主键 |
+| product_id | int(10) unsigned | 商品ID | 关联eb_store_product.id |
+| attr_id | int(10) unsigned | 属性ID | 关联eb_store_product_attr.id |
+| attr_value | varchar(128) | 属性值 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_store_product_relation (商品关联表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品关联ID | 主键 |
+| product_id | int(10) unsigned | 商品ID | 关联eb_store_product.id |
+| relation_product_id | int(10) unsigned | 关联商品ID | 关联eb_store_product.id |
+| type | varchar(32) | 关联类型 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+3. 订单相关表
+eb_store_order (订单表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(11) unsigned | 订单ID | 主键 |
+| order_id | varchar(32) | 订单号 | - |
+| uid | int(11) unsigned | 用户id | 关联eb_user.uid |
+| real_name | varchar(32) | 用户姓名 | - |
+| user_phone | varchar(18) | 用户电话 | - |
+| user_address | varchar(255) | 详细地址 | - |
+| cart_id | varchar(255) | 购物车id | - |
+| total_num | int(11) unsigned | 商品总数 | - |
+| total_price | decimal(8,2) | 商品总价 | - |
+| total_postage | decimal(8,2) | 邮费总价 | - |
+| pay_price | decimal(8,2) | 实付金额 | - |
+| pay_postage | decimal(8,2) | 实付邮费 | - |
+| deduction_price | decimal(8,2) | 优惠金额 | - |
+| coupon_id | int(11) | 优惠券id | - |
+| coupon_price | decimal(8,2) | 优惠券金额 | - |
+| paid | tinyint(1) | 支付状态 | - |
+| pay_time | datetime | 支付时间 | - |
+| pay_type | varchar(32) | 支付方式 | - |
+| status | tinyint(1) | 订单状态 | - |
+| refund_status | tinyint(1) | 退款状态 | - |
+| refund_reason | varchar(255) | 退款原因 | - |
+| delivery_type | varchar(32) | 发货类型 | - |
+| delivery_id | int(11) | 快递公司id | - |
+| delivery_name | varchar(64) | 快递名称/送货人姓名 | - |
+| delivery_code | varchar(64) | 快递单号/手机号 | - |
+| delivery_time | datetime | 发货时间 | - |
+| receive_time | datetime | 收货时间 | - |
+| mark | varchar(512) | 备注 | - |
+| remark | varchar(512) | 备注 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+eb_store_order_cart_info (订单购物车信息表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 订单购物车表ID | 主键 |
+| oid | int(10) unsigned | 订单id | 关联eb_store_order.id |
+| cart_id | int(10) unsigned | 购物车id | - |
+| product_id | int(10) unsigned | 商品ID | 关联eb_store_product.id |
+| cart_info | text | 购买东西的详细信息 | - |
+| unique | varchar(32) | 商品唯一标识 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_store_order_status (订单状态表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 订单状态ID | 主键 |
+| oid | int(10) unsigned | 订单id | 关联eb_store_order.id |
+| change_type | varchar(32) | 操作类型 | - |
+| change_message | varchar(256) | 操作备注 | - |
+| change_time | datetime | 操作时间 | - |
+
+eb_store_order_refund (订单退款表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 订单退款ID | 主键 |
+| store_order_id | int(10) unsigned | 订单id | 关联eb_store_order.id |
+| order_id | varchar(32) | 订单号 | - |
+| refund_no | varchar(32) | 退款单号 | - |
+| refund_price | decimal(8,2) | 退款金额 | - |
+| refund_reason | varchar(255) | 退款原因 | - |
+| refund_status | tinyint(1) | 退款状态 | - |
+| refund_time | datetime | 退款时间 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+4. 营销相关表
+eb_store_coupon (优惠券表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 优惠券表ID | 主键 |
+| name | varchar(64) | 优惠券名称 | - |
+| coupon_type | tinyint(1) | 优惠券类型 | - |
+| money | decimal(8,2) | 优惠券面值 | - |
+| min_price | decimal(8,2) | 最低消费 | - |
+| start_time | datetime | 优惠券开始时间 | - |
+| end_time | datetime | 优惠券结束时间 | - |
+| use_num | int(11) | 优惠券数量 | - |
+| used_num | int(11) | 优惠券已使用数量 | - |
+| status | tinyint(1) | 优惠券状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_store_coupon_user (优惠券用户表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 优惠券发放记录id | 主键 |
+| cid | int(10) unsigned | 优惠券id | 关联eb_store_coupon.id |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| coupon_title | varchar(64) | 优惠券名称 | - |
+| coupon_price | decimal(8,2) | 优惠券面值 | - |
+| use_min_price | decimal(8,2) | 最低消费 | - |
+| add_time | datetime | 领取时间 | - |
+| end_time | datetime | 使用时间 | - |
+| use_time | datetime | 使用时间 | - |
+| type | varchar(32) | 使用类型 | - |
+| status | tinyint(1) | 状态 | - |
+| is_fail | tinyint(1) | 是否有效 | - |
+
+eb_store_seckill (秒杀商品表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 商品秒杀产品表id | 主键 |
+| product_id | int(10) unsigned | 商品id | 关联eb_store_product.id |
+| image | varchar(255) | 推荐图 | - |
+| images | varchar(1000) | 轮播图 | - |
+| title | varchar(255) | 活动标题 | - |
+| info | varchar(255) | 秒杀简介 | - |
+| price | decimal(8,2) | 价格 | - |
+| cost | decimal(8,2) | 原价 | - |
+| ot_price | decimal(8,2) | 市场价 | - |
+| stock | int(10) unsigned | 销量 | - |
+| sales | int(10) unsigned | 库存 | - |
+| unit_name | varchar(16) | 单位名 | - |
+| postage | decimal(8,2) | 邮费 | - |
+| start_time | datetime | 开始时间 | - |
+| stop_time | datetime | 结束时间 | - |
+| status | tinyint(1) | 状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_store_bargain (砍价商品表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 砍价产品ID | 主键 |
+| product_id | int(10) unsigned | 关联产品ID | 关联eb_store_product.id |
+| title | varchar(255) | 砍价活动名称 | - |
+| image | varchar(255) | 砍价活动图片 | - |
+| unit_name | varchar(16) | 单位名称 | - |
+| stock | int(11) | 销量 | - |
+| sales | int(11) | 库存 | - |
+| images | varchar(1000) | 轮播图 | - |
+| start_time | datetime | 砍价开始时间 | - |
+| stop_time | datetime | 砍价结束时间 | - |
+| store_name | varchar(255) | 商品名称 | - |
+| price | decimal(8,2) | 砍价金额 | - |
+| min_price | decimal(8,2) | 砍价商品最低价 | - |
+| num | int(11) | 每次购买的砍价产品数量 | - |
+| bargain_max_price | decimal(8,2) | 用户每次砍价的最大金额 | - |
+| bargain_min_price | decimal(8,2) | 用户每次砍价的最小金额 | - |
+| status | tinyint(1) | 砍价状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+5. 系统相关表
+eb_system_config (系统配置表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 配置id | 主键 |
+| name | varchar(30) | 配置名称 | - |
+| value | text | 配置值 | - |
+| type | varchar(10) | 配置类型 | - |
+| description | varchar(255) | 配置描述 | - |
+| status | tinyint(1) | 状态 | - |
+| create_time | datetime | 创建时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+eb_system_store (门店表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 门店id | 主键 |
+| name | varchar(100) | 门店名称 | - |
+| address | varchar(255) | 详细地址 | - |
+| phone | varchar(32) | 电话 | - |
+| business_hours | varchar(100) | 营业时间 | - |
+| latitude | varchar(32) | 纬度 | - |
+| longitude | varchar(32) | 经度 | - |
+| status | tinyint(1) | 是否显示 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+eb_system_admin (管理员表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 后台管理员表ID | 主键 |
+| account | varchar(32) | 后台管理员账号 | - |
+| pwd | varchar(255) | 后台管理员密码 | - |
+| real_name | varchar(16) | 后台管理员姓名 | - |
+| roles | varchar(128) | 后台管理员权限(menus_id) | 关联eb_system_role.id |
+| last_ip | varchar(16) | 后台管理员最后一次登录ip | - |
+| last_time | datetime | 后台管理员最后一次登录时间 | - |
+| add_time | datetime | 后台管理员添加时间 | - |
+| login_count | int(10) | 登录次数 | - |
+| level | tinyint(1) | 后台管理员级别 | - |
+| status | tinyint(1) | 后台管理员状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+
+eb_system_role (角色表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 身份管理id | 主键 |
+| role_name | varchar(32) | 身份管理名称 | - |
+| rules | text | 身份管理权限(menus_id) | - |
+| level | int(3) | 排序 | - |
+| status | tinyint(1) | 状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_system_attachment (附件管理表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 附件ID | 主键 |
+| uid | int(10) unsigned | 用户ID | 关联eb_user.uid |
+| real_name | varchar(255) | 附件真实名 | - |
+| att_dir | varchar(500) | 附件路径 | - |
+| satt_dir | varchar(500) | 压缩图片路径 | - |
+| att_size | varchar(30) | 附件大小 | - |
+| att_type | varchar(30) | 附件类型 | - |
+| pid | int(10) | 分类ID | - |
+| image_type | int(11) | 图片上传类型 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 上传时间 | - |
+
+eb_system_attachment_category (附件分类表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 附件分类ID | 主键 |
+| pid | int(10) unsigned | 上级分类ID | 自关联id |
+| name | varchar(50) | 分类名称 | - |
+| enname | varchar(50) | 分类目录 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_system_city (城市表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 城市ID | 主键 |
+| pid | int(10) unsigned | 父级id | 自关联id |
+| name | varchar(100) | 城市名称 | - |
+| level | int(11) | 级别 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_express (快递公司表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 快递公司id | 主键 |
+| code | varchar(50) | 快递公司编码 | - |
+| name | varchar(50) | 快递公司名称 | - |
+| sort | int(11) | 排序 | - |
+| is_show | tinyint(1) | 是否显示 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_system_group (组合数据表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 组合数据ID | 主键 |
+| name | varchar(50) | 数据组名称 | - |
+| info | varchar(256) | 数据提示 | - |
+| fields | text | 表单数据 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_group_data (组合数据详情表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 组合数据详情ID | 主键 |
+| gid | int(10) unsigned | 对应的数据组id | 关联eb_system_group.id |
+| value | text | 数据排序 | - |
+| add_time | datetime | 添加时间 | - |
+| sort | int(11) | 数据排序 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+
+
+eb_system_log (系统日志表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 管理员操作记录ID | 主键 |
+| admin_id | int(10) unsigned | 管理员id | 关联eb_system_admin.id |
+| admin_name | varchar(64) | 管理员姓名 | - |
+| path | varchar(128) | 操作页面 | - |
+| page | varchar(64) | 操作内容 | - |
+| method | varchar(12) | 访问方法 | - |
+| ip | varchar(64) | 登录IP | - |
+| type | varchar(32) | 操作类型 | - |
+| add_time | datetime | 操作时间 | - |
+
+
+eb_system_menus (后台菜单表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 菜单ID | 主键 |
+| pid | int(10) unsigned | 父级id | 自关联id |
+| name | varchar(100) | 按钮名 | - |
+| path | varchar(100) | 请求路径 | - |
+| component | varchar(100) | 前端路径 | - |
+| is_show | tinyint(1) | 是否显示 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_notice (系统通知表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 通知模板id | 主键 |
+| title | varchar(64) | 通知模板名称 | - |
+| type | varchar(64) | 通知类型 | - |
+| icon | varchar(16) | 图标 | - |
+| url | varchar(64) | 链接 | - |
+| table_title | varchar(256) | 通知数据 | - |
+| template | text | 通知模板 | - |
+| push | varchar(32) | 通知对象 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_notice_admin (通知记录表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 通知记录ID | 主键 |
+| notice_type | varchar(64) | 通知类型 | - |
+| admin_id | int(10) unsigned | 通知的管理员 | 关联eb_system_admin.id |
+| link_id | int(10) unsigned | 关联ID | - |
+| table_data | text | 通知的数据 | - |
+| is_click | tinyint(1) | 点击状态 | - |
+| is_visit | tinyint(1) | 访问状态 | - |
+| visit_time | datetime | 访问时间 | - |
+| add_time | datetime | 通知时间 | - |
+
+eb_system_store_staff (门店店员表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 门店店员表ID | 主键 |
+| uid | int(10) unsigned | 店员用户ID | 关联eb_user.uid |
+| store_id | int(10) unsigned | 门店id | 关联eb_system_store.id |
+| store_name | varchar(100) | 门店名称 | - |
+| staff_name | varchar(64) | 店员名称 | - |
+| phone | varchar(32) | 手机号码 | - |
+| verify_status | tinyint(1) | 核销开关 | - |
+| status | tinyint(1) | 状态 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_store_service (客服表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 客服id | 主键 |
+| uid | int(10) unsigned | 客服uid | 关联eb_user.uid |
+| avatar | varchar(255) | 客服头像 | - |
+| nickname | varchar(50) | 代理名称 | - |
+| customer | tinyint(1) | 是否展示统计管理 | - |
+| notify | tinyint(1) | 订单通知1开启0关闭 | - |
+| status | tinyint(1) | 0隐藏1显示 | - |
+| add_time | datetime | 添加时间 | - |
+| update_time | datetime | 更新时间 | - |
+
+eb_system_user_level (用户等级表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户等级ID | 主键 |
+| name | varchar(60) | 会员等级名称 | - |
+| condition | int(11) | 达到条件升级所需积分 | - |
+| grade | int(11) | 会员等级 | - |
+| discount | decimal(8,2) | 会员折扣 | - |
+| description | varchar(1000) | 会员等级描述 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_system_user_task (用户任务完成记录表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 任务完成记录ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| task_id | int(10) unsigned | 任务id | 关联eb_system_user_task_id.id |
+| status | tinyint(1) | 是否有效 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_system_user_task_id (用户任务表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 任务id | 主键 |
+| name | varchar(255) | 任务名称 | - |
+| real_name | varchar(255) | 任务简介 | - |
+| task_type | varchar(50) | 任务类型 | - |
+| number | int(11) | 限定数 | - |
+| level_id | int(11) | 等级id | 关联eb_system_user_level.id |
+| sort | int(11) | 排序 | - |
+| is_show | tinyint(1) | 是否显示 | - |
+| is_must | tinyint(1) | 是否务必 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_user_visit (用户访问记录表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户访问记录ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| ip | varchar(255) | 访问ip | - |
+| url | varchar(255) | 访问地址 | - |
+| method | varchar(10) | 访问方式 | - |
+| take_time | int(10) unsigned | 访问时长 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_user_brokerage_record (佣金记录表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 佣金记录ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| link_id | varchar(32) | 关联id | - |
+| link_type | varchar(32) | 关联类型 | - |
+| type | tinyint(1) | 类型 | - |
+| title | varchar(32) | 标题 | - |
+| number | decimal(8,2) | 金额 | - |
+| mark | varchar(255) | 备注 | - |
+| status | tinyint(1) | 状态 | - |
+| pm | tinyint(1) | 0 = 支出 1 = 获得 | - |
+| add_time | datetime | 添加时间 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+
+eb_user_extract (用户扩展字段表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户提现表ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| real_name | varchar(64) | 名称 | - |
+| extract_type | varchar(32) | 银行 = 银行卡 alipay = 支付宝wx=微信 | - |
+| bank_code | varchar(32) | 银行卡 | - |
+| bank_address | varchar(256) | 开户地址 | - |
+| alipay_code | varchar(64) | 支付宝账号 | - |
+| extract_price | decimal(8,2) | 提现金额 | - |
+| mark | varchar(512) | 备注 | - |
+| balance | decimal(8,2) | 余额 | - |
+| fail_msg | varchar(128) | 无效原因 | - |
+| fail_time | datetime | 失败时间 | - |
+| status | tinyint(1) | -1 未通过 0 待审核 1 已提现 | - |
+| wechat | varchar(15) | 微信号 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_user_group (用户分组表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户分组ID | 主键 |
+| group_name | varchar(64) | 用户分组名称 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_user_label (用户标签表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户标签ID | 主键 |
+| label_name | varchar(64) | 用户标签名称 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_user_level (用户等级表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户等级ID | 主键 |
+| level_name | varchar(64) | 用户等级名称 | - |
+| level | int(11) | 用户等级 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+eb_user_recharge (用户充值表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户充值ID | 主键 |
+| uid | int(10) unsigned | 充值用户UID | 关联eb_user.uid |
+| order_id | varchar(32) | 订单号 | - |
+| price | decimal(8,2) | 充值金额 | - |
+| give_price | decimal(8,2) | 购买赠送金额 | - |
+| recharge_type | varchar(32) | 充值类型 | - |
+| paid | tinyint(1) | 是否充值 | - |
+| pay_time | datetime | 充值支付时间 | - |
+| add_time | datetime | 充值时间 | - |
+| refund_price | decimal(10,2) | 退款金额 | - |
+| mark | varchar(255) | 备注 | - |
+| status | tinyint(1) | 0 = 待充值 1 = 充值成功 2 = 充值失败 | - |
+
+
+eb_user_sign (用户签到记录表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 签到记录ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| title | varchar(255) | 签到说明 | - |
+| number | int(11) | 获得积分 | - |
+| balance | int(11) | 剩余积分 | - |
+| add_time | datetime | 添加时间 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+
+
+eb_user_spread (用户推广表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户推广表ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| spread_uid | int(10) unsigned | 推广人id | 关联eb_user.uid |
+| spread_time | datetime | 推广员关联时间 | - |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+eb_user_tag_relation (用户标签关联表)
+| 字段名 | 类型 | 说明 | 关联关系 |
+|--------|------|------|----------|
+| id | int(10) unsigned | 用户标签关联表ID | 主键 |
+| uid | int(10) unsigned | 用户id | 关联eb_user.uid |
+| tag_id | int(10) unsigned | 标签id | 关联eb_user_label.id |
+| is_del | tinyint(1) | 是否删除 | - |
+| add_time | datetime | 添加时间 | - |
+
+
+
+

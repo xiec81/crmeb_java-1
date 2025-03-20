@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# 总体规则
+
+## 项目背景
+这是一个电商项目，商品的主要品类是： 鞋子、 服饰、酒店、机票。 这个项目基于开源代码开发，原始代码网址：https://github.com/crmeb/crmeb_java。 对应的官方帮助文档是： https://doc.crmeb.com/java/crmeb_java， 
+其中酒店和机票是在原有的商品数据结构的基础上新开发的模块， 有自己附加的数据结构。
+
+## 项目结构
+- admin 
+  后台管理系统，提供基础配置、商品维护、订单管理等功能。 是一个vue2项目。 请参考项目特定的规则文件 [admin.mdc](mdc:.cursor/rules/admin.mdc)
+
+- app
+  uniapp编写的电商app前端。当前只需要支持H5页面。  请参考项目特定的规则文件 [app.mdc](mdc:.cursor/rules/app.mdc)
+
+- crmeb
+  是一个java maven项目，包括4个java spring boot 2项目模块。 pom.xml统一管理依赖版本。 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+
+- crmeb/crmeb-admin
+  是一个spring boot 2项目，为/admin后端管理系统提供接口, 依赖spring boot模块 crmeb/crmeb-service,请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+
+- crmeb/crmeb-front
+  是一个spring boot 2项目，为/app前端应用提供接口,依赖spring boot 模块 crmeb/crmeb-service, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+
+- crmeb/crmeb-service
+  是一个spring boot 2库项目， 供crmeb/crmeb-admin 和crmeb/crmeb-front 引用， 依赖spring boot模块crmeb/crmeb-common, 请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+
+- crmeb/crmeb-common
+  是一个spring boot 2库项目， 供crmeb/crmeb-service 引用。 其他spring boot项目的外部依赖都写在这个项目的pom.xml文件中。请参考项目特定的规则文件 [java.mdc](mdc:.cursor/rules/java.mdc)
+
+## 业务对象/表结构
+由于使用了mybatis的技术栈， 没有Entity实体类， 对应的关键业务对象位于 crmeb/crmeb-common/src/main/java/com/zbkj/common/model 目录下面。 如果有些字段和表结构有矛盾的， 最终以数据库建表脚本为准：crmeb/sql/Crmeb_1.3.4.sql. 
+所有(全面的)的表结构及其字段的说明请参考文件 [db-all.mdc](mdc:.cursor/rules/db-all.mdc)  ， 重要的(简洁的)表结构及其关键字段和关键关系请参考
+
+## 代码规范
+java项目的代码规范请参考规则文件  [package-structure.mdc](mdc:.cursor/rules/package-structure.mdc)  [naming-convention.mdc](mdc:.cursor/rules/naming-convention.mdc)  [code-generation.mdc](mdc:.cursor/rules/code-generation.mdc)
+
+
+
+
+  
+   
+

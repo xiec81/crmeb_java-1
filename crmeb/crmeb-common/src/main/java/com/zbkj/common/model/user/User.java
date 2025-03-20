@@ -76,6 +76,9 @@ public class User implements Serializable {
     @ApiModelProperty(value = "手机号码")
     private String phone;
 
+    @ApiModelProperty(value = "邮箱")
+    private String email;
+
     @ApiModelProperty(value = "性别")
     private int sex;
 
@@ -114,6 +117,9 @@ public class User implements Serializable {
 
     @ApiModelProperty(value = "推广员关联时间")
     private Date spreadTime;
+
+    @ApiModelProperty(value = "推广码")
+    private String spreadCode;
 
     @ApiModelProperty(value = "用户类型")
     private String userType;

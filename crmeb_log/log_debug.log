@@ -1,0 +1,2552 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:49:59.936",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/getLoginPic?temp=1742370599", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:49:59.952",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#getLoginPic()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.242",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370600", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.242",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/getLoginPic?temp=1742370600", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.244",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#getLoginPic()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.244",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.305",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.305",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.307",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@106914c6]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.307",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@17737128]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.328",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.328",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.366",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/7ccf9f4158794bf997d97b4e871dd34b4qy58l2fyg.png", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.366",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/8cf6cd4fd29c4a59a094ba028c8f3f4czyd21fctzc.png", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.371",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/0016d1efa86d41e38e76801a7cd743c6wcupy21hvb.jpg", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.375",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.375",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.375",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.378",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.379",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.380",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.383",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.379",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.387",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.389",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.392",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.393",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.395",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.394",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.394",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:50:00 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.397",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.398",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@4ae3b345]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.398",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.399",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.399",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.399",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-21",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.400",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.401",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.402",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:50:00 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.402",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:50:00 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.404",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:00.406",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.844",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.845",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.851",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=a46e6582f9547fd9d6125c618d764dd7, code=ew8f)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.891",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.918",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.918",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@3d1d2ec6]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.919",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.919",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.932",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-24",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370608", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.933",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-24",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.975",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-24",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.975",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-24",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@7d328591]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:08.977",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-24",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.237",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.238",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.240",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=8d2aff96526731aafb7e74c541ab8bc6, code=xvmv)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.242",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.267",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.267",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@4cd900cf]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.268",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.268",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.277",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370615", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.278",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.321",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.321",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@59584c6c]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:15.322",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.944",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.945",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.947",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=2b7d6b499a47a3e68d173c53395dd153, code=bvug)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.948",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.990",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.990",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@5d95d28d]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.991",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:21.993",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-22",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:22.006",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370621", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:22.007",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:22.102",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:22.102",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@5cb2da62]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:22.103",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:27.998",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.000",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.004",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=afddd1ce2366a3eb7c1c0472fda90040, code=v50e)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.017",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.063",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.064",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@6f6d3e0b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.064",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.065",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-17",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.074",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-25",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370628", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.075",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-25",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.191",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-25",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.191",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-25",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@5bf902b6]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:28.192",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-25",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.615",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.616",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.617",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=a72156cee85b4bc9c610da0111a32d88, code=yfwh)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.619",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.647",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.648",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@6be6d03]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.649",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.649",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.657",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-9",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370633", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.658",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-9",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.705",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-9",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.705",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-9",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@4a82bbf7]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:33.706",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-9",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.368",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.369",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.370",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=63862ca4db7442531d0a556f62cd0837, code=q0h8)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.372",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.405",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.405",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@13971e05]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.406",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.406",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-10",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.417",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370644", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.418",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.463",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.463",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@999bc76]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:44.463",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.689",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.690",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.692",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=0847fda96bb1b3a27bde733490f10b41, code=tcRR)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.694",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.721",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.722",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@19a36a56]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.722",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.723",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-20",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.732",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370653", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.733",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.779",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.779",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@41b5914b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:50:53.780",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.245",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.247",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.248",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=5469c722188b18da0f43eed082892036, code=pXRd)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.249",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.279",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.280",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@29f57184]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.280",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.280",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.291",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370663", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.292",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.341",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.342",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@65481639]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:03.342",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-3",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.082",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.084",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.085",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=e2c317b9f3e0f1c10ad515acb6cbdef3, code=vzma)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.087",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.116",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.117",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@6f986330]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.117",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.117",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-7",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.127",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-11",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370669", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.128",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-11",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.176",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-11",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.176",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-11",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@c82ee7b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:09.177",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-11",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:16.402",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370676", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:16.403",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:16.456",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:16.456",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@52bbb51b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:16.458",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.048",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370677", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.049",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.097",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.097",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@77b1703c]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.098",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.898",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-29",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370677", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.898",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-29",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.960",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-29",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.961",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-29",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@7014dd7b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:17.962",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-29",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:20.357",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370680", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:20.358",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:20.406",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:20.407",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@55d6f02d]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:20.408",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.129",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.130",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.131",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=9f48ae7abf14b86e16fc1f19a767f69a, code=V48e)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.135",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.167",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.169",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@7ebde839]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.169",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.170",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.177",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370690", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.178",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.232",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.233",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@1503334b]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:30.234",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:36.522",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370696", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:36.524",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:36.576",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:36.578",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@61d022c5]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:36.578",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-5",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:38.209",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-23",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370698", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:38.211",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-23",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:38.260",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-23",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:38.260",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-23",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@4163ac6d]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:38.261",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-23",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.026",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.027",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.029",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=85fc03f8f3f60cb0084679b6ec5ec104, code=78K7)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.031",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.068",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.068",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@2a0f6b21]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.070",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.071",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-28",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.080",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-27",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370706", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.083",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-27",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.137",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-27",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.139",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-27",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@32dea440]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:51:46.139",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-27",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:14.965",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.c.l.ClasspathLoggingApplicationListener",
+                    "message": "Application started with classpath: [file:/C:/Users/LENOVO/AppData/Local/Temp/cp_16jzlyc27ms5tho3n2gr5mkwr.jar]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:15.056",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.boot.SpringApplication",
+                    "message": "Loading source class com.zbkj.admin.CrmebAdminApplication" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:15.106",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.c.c.ConfigFileApplicationListener",
+                    "message": "Loaded config file 'file:/D:/shopworkspace/crmeb_java/crmeb/crmeb-admin/target/classes/application.yml' (classpath:/application.yml)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:15.108",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                    "message": "Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1500b2f3" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:17.980",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\LENOVO\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:17.982",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "Code archive: C:\Users\LENOVO\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:17.983",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.e.t.TomcatServletWebServerFactory",
+                    "message": "None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored." }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:18.283",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.web.context.ContextLoader",
+                    "message": "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.133",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, responseFilter urls=[/api/admin/*] order=1, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, corsFilter urls=[/*] order=2147483647, responseFilter urls=[/*] order=2147483647, jwtAuthenticationTokenFilter urls=[/*] order=2147483647" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.134",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.ServletContextInitializerBeans",
+                    "message": "Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.176",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.m.w.servlet.WebMvcMetricsFilter",
+                    "message": "Filter 'webMvcMetricsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.177",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedRequestContextFilter",
+                    "message": "Filter 'requestContextFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.178",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.springframework.web.filter.CorsFilter",
+                    "message": "Filter 'corsFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.179",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedCharacterEncodingFilter",
+                    "message": "Filter 'characterEncodingFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.179",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.DelegatingFilterProxyRegistrationBean$1",
+                    "message": "Filter 'springSecurityFilterChain' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:19.180",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.w.s.f.OrderedFormContentFilter",
+                    "message": "Filter 'formContentFilter' configured for use" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:24.110",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "289 mappings in 'requestMappingHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:24.612",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin",
+                    "message": "Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:24.625",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
+                    "message": "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:24.737",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Patterns [/webjars/**, /**, /doc.html, /crmebimage/**] in 'resourceHandlerMapping'" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:24.795",
+                    "level": "DEBUG",
+                    "thread": "main",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:26.657",
+                    "level": "DEBUG",
+                    "thread": "RMI TCP Connection(2)-127.0.0.1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Detected StandardServletMultipartResolver" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:26.678",
+                    "level": "DEBUG",
+                    "thread": "RMI TCP Connection(2)-127.0.0.1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.232",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/getLoginPic?temp=1742370808", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.232",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370808", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.240",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#getLoginPic()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.240",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.457",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.458",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@162cc997]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.466",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-1",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.522",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/0016d1efa86d41e38e76801a7cd743c6wcupy21hvb.jpg", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.524",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/7ccf9f4158794bf997d97b4e871dd34b4qy58l2fyg.png", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.525",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/crmebimage/public/maintain/2021/12/25/8cf6cd4fd29c4a59a094ba028c8f3f4czyd21fctzc.png", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.528",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.528",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.528",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                    "message": "Mapped to ResourceHttpRequestHandler ["file:/当前项目更根目录的素材文件(绝对路径)/crmebimage//crmebimage/"]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.540",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.540",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.540",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.r.ResourceHttpRequestHandler",
+                    "message": "Resource not found" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.541",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.541",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.541",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 404 NOT_FOUND" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.542",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.542",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.542",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": ""ERROR" dispatch for GET "/error", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.546",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.546",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.546",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.552",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.552",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.552",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.553",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:53:28 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.553",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:53:28 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.553",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.w.s.m.m.a.HttpEntityMethodProcessor",
+                    "message": "Writing [{timestamp=Wed Mar 19 15:53:28 CST 2025, status=404, error=Not Found, message=No message available,  (truncated)...]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.559",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-13",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.559",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.559",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-4",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Exiting from "ERROR" dispatch, status 404" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.937",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.937",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@3211f1eb]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:28.939",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:33.517",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370813", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:33.519",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:33.569",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:33.570",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@680be1cb]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:33.571",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-8",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.725",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.726",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.770",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=25b97998479f0191e97eb63c65d52d01, code=pkvd)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.891",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.914",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.914",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@5d465cdb]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.917",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.918",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-6",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.937",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370820", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.939",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.983",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.984",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@7dfd2e26]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:40.986",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-14",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.488",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.490",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.492",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=af8a43885b3b6d198defd8640ba8ad8d, code=nxwg)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.494",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.526",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.528",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@39938fd3]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.529",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.530",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-15",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.542",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370833", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.544",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.589",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.590",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@44592010]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:53:53.592",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-16",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.558",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "POST "/api/admin/login", parameters={}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.560",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.AdminLoginController#SystemAdminLogin(SystemAdminLoginRequest, HttpServletRequest)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.560",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Read "application/json;charset=UTF-8" to [SystemAdminLoginRequest(account=admin, pwd=123456, key=823a96a719c72836c5204433003d9cba, code=nxwg)]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.561",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Using @ExceptionHandler com.zbkj.common.exception.GlobalExceptionHandler#defaultExceptionHandler(Exception)" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.574",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.575",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@10eca19]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.575",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                    "message": "Resolved [com.zbkj.common.exception.CrmebException: 验证码错误]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.576",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.594",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "GET "/api/admin/validate/code/get?temp=1742370855", parameters={masked}" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.597",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                    "message": "Mapped to com.zbkj.admin.controller.ValidateCodeController#get()" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.623",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.623",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor",
+                    "message": "Writing [com.zbkj.common.response.CommonResult@340b0fd5]" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-19 15:54:15.623",
+                    "level": "DEBUG",
+                    "thread": "http-nio-8080-exec-18",
+                    "class": "o.s.web.servlet.DispatcherServlet",
+                    "message": "Completed 200 OK" }
+                    

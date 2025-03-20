@@ -245,6 +245,33 @@ public interface UserService extends IService<User> {
      */
     User getByPhone(String phone);
 
+        /**
+     * 根据账号查询用户
+     * @param phone 用户手机号
+     * @return 用户信息
+     */
+    User getByAccount(String account);
+
+    /**
+     * 根据邮箱查询用户
+     * @param email 用户邮箱
+     * @return 用户信息
+     */
+    User getByEmail(String email);
+
+    /**
+     * 根据推广码查询用户
+     * @param spreadCode 推广码
+     * @return 用户信息
+     */
+    User getBySpreadCode(String spreadCode);
+
+    /**
+     * 获取默认用户头像
+     * @return 默认头像地址
+     */
+    String getDefaultAvatar();
+
     /**
      * 后台修改用户手机号
      * @param id 用户uid

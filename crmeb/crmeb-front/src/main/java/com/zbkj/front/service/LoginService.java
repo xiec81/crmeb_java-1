@@ -1,6 +1,7 @@
 package com.zbkj.front.service;
 
 import com.zbkj.common.model.user.User;
+import com.zbkj.common.request.LoginEmailRequest;
 import com.zbkj.common.request.LoginMobileRequest;
 import com.zbkj.common.request.LoginRequest;
 import com.zbkj.common.response.LoginResponse;
@@ -31,6 +32,11 @@ public interface LoginService {
      * 手机号验证码登录
      */
     LoginResponse phoneLogin(LoginMobileRequest loginRequest);
+    
+    /**
+     * 邮箱验证码登录
+     */
+    LoginResponse emailLogin(LoginEmailRequest loginRequest);
 
     /**
      * 老绑定分销关系

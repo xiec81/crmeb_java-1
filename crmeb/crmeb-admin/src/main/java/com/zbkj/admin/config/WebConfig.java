@@ -95,12 +95,13 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     @Bean
-    public FilterRegistrationBean filterRegister() {
-        //注册过滤器
-        FilterRegistrationBean registration = new FilterRegistrationBean(responseFilter());
+    public FilterRegistrationBean<ResponseFilter> filterRegister() {
+        FilterRegistrationBean<ResponseFilter> registration = new FilterRegistrationBean<>();
+        registration.setFilter(new ResponseFilter());
         // 仅仅api前缀的请求才会拦截
         registration.addUrlPatterns("/api/admin/*");
-        registration.addUrlPatterns("/api/front/*");
+        registration.setName("responseFilter");
+        registration.setOrder(1);
         return registration;
     }
 

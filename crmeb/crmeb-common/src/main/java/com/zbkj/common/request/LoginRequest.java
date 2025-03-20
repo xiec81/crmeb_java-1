@@ -32,10 +32,15 @@ public class LoginRequest implements Serializable {
 
     private static final long serialVersionUID=1L;
 
-    @ApiModelProperty(value = "手机号", required = true, example = "18888888")
-    @NotBlank(message = "手机号不能为空")
-    @Pattern(regexp = RegularConstants.PHONE_TWO, message = "手机号码格式错误")
+    // @ApiModelProperty(value = "手机号", required = true, example = "18888888")
+    // @NotBlank(message = "手机号不能为空")
+    // @Pattern(regexp = RegularConstants.PHONE_TWO, message = "手机号码格式错误")
+    // @JsonProperty(value = "account")
+    // private String phone;
+
     @JsonProperty(value = "account")
+    private String account;
+
     private String phone;
 
     @ApiModelProperty(value = "密码", required = true, example = "1~[6,18]")

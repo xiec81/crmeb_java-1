@@ -1,0 +1,60 @@
+---
+description: 
+globs: admin/**
+alwaysApply: false
+---
+# CRMEB 后台管理系统技术栈分析
+
+## 核心框架
+- **Vue.js 2.6.10** - 前端JavaScript框架
+- **Vue Router 3.0.2** - 路由管理
+- **Vuex 3.1.0** - 状态管理
+
+## UI组件库
+- **Element UI 2.13.0** - 桌面端组件库
+- **Vue-YDUI** - 移动端组件库
+
+## HTTP请求
+- **Axios** - 基于Promise的HTTP客户端
+
+## 构建工具
+- **Vue CLI 3** - Vue项目脚手架
+- **Babel** - JavaScript编译器
+- **Webpack** - 模块打包工具
+- **ESLint** - 代码质量检查工具
+
+## 图表可视化
+- **ECharts 4.2.1** - 数据可视化图表库
+- **Vue-ECharts** - Vue的ECharts包装器
+
+## CSS预处理器
+- **Sass** - CSS扩展语言
+
+## 功能增强
+- **VueDraggable** - 拖拽功能
+- **Vue-Lazyload** - 图片懒加载
+- **JS-Cookie** - Cookie操作
+- **Clipboard.js** - 剪贴板操作
+- **Screenfull** - 全屏功能
+
+## 开发工具
+- **VConsole** - 移动端调试工具
+- **Husky** - Git hooks工具
+- **Lint-staged** - 针对暂存的git文件运行linters
+
+## 文件处理
+- **XLSX** - Excel文件操作
+- **File-saver** - 文件保存功能
+- **JSZip** - ZIP文件操作
+
+## 其他特性
+- SVG图标系统
+- 表单生成器功能
+- Swiper滑动组件
+- 代码生成模块
+
+## 目录结构
+系统的目录结构遵循了Vue项目的典型组织方式，包含views（视图）、components（组件）、api（接口）、router（路由）、store（状态管理）等模块，采用了模块化的开发方式。
+
+## 功能模块
+系统功能完善，包括商品管理、订单管理、用户管理、分销、营销、财务、内容管理、系统设置等多个模块。 

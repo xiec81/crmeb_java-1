@@ -1,0 +1,167 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# CRMEB Java项目技术栈分析
+
+## 1. 项目架构
+
+CRMEB Java是一个基于Spring Boot 2的电商项目，采用了分层架构设计，主要分为以下几个模块：
+
+### 模块结构
+- **crmeb-common**：基础公共模块，包含常量、工具类、公共配置等
+- **crmeb-service**：服务层模块，依赖common模块，提供核心业务逻辑服务
+- **crmeb-admin**：后台管理系统接口模块，依赖service模块，为后台管理提供REST接口
+- **crmeb-front**：前端应用接口模块，依赖service模块，为用户端app提供REST接口
+
+## 2. 核心技术栈
+
+### 2.1 基础框架
+- **Spring Boot 2.2.6**：作为基础框架，提供依赖注入、自动配置等功能
+- **Maven**：项目依赖管理工具，使用父子结构进行模块划分
+
+### 2.2 数据库相关
+- **MySQL 8.0**：关系型数据库
+- **Druid**：阿里巴巴数据库连接池
+- **MyBatis-Plus 3.3.1**：增强的MyBatis框架，提供CRUD操作和代码生成等功能
+- **PageHelper**：分页插件
+
+### 2.3 缓存与存储
+- **Redis**：用于缓存、分布式锁、数据存储等
+- **本地存储/OSS/腾讯云COS/七牛云**：多种文件存储方案
+
+### 2.4 API文档
+- **Swagger 2.9.2**：API文档自动生成工具
+- **Swagger-bootstrap-ui 1.9.3**：优化Swagger UI界面
+
+### 2.5 工具类库
+- **Hutool 4.5.7**：Java工具集合
+- **Fastjson 1.2.83**：JSON处理库
+- **Apache Commons**：常用工具库
+- **JWT**：用于用户认证和授权
+
+### 2.6 支付与第三方集成
+- **微信支付**：支持公众号、小程序、H5等多种支付方式
+- **支付宝支付**
+- **短信服务**：支持多种短信服务商
+- **物流查询API**
+
+### 2.7 其他技术点
+- **二维码生成**：使用Google ZXing
+- **图片处理**：Thumbnailator用于图片压缩
+- **导出功能**：使用POI处理Excel导出
+- **异步任务处理**：使用Spring的@Async注解
+
+## 3. 关键公共类
+
+### 3.1 配置类
+- **RedisConfig**：Redis配置
+- **CrmebConfig**：系统基础配置
+
+### 3.2 常量类
+- **Constants**：系统通用常量
+- **PayConstants**：支付相关常量
+- **ProductConstants**：商品相关常量
+- **WeChatConstants**：微信相关常量
+- **UserConstants**：用户相关常量
+- **SmsConstants**：短信相关常量
+
+### 3.3 工具类
+- **RedisUtil**：Redis操作工具类
+- **CrmebUtil**：系统核心工具类
+- **DateUtil**：日期处理工具类
+- **RestTemplateUtil**：HTTP请求工具类
+- **ValidateFormUtil**：表单验证工具类
+- **UploadUtil**：文件上传工具类
+- **WxPayUtil**：微信支付工具类
+- **XmlUtil**：XML处理工具类
+- **RequestUtil**：请求处理工具类
+- **SpringUtil**：Spring上下文工具类
+
+### 3.4 核心业务服务
+- **UserService**：用户相关服务
+- **OrderService**：订单相关服务
+- **ProductService**：商品相关服务
+- **PayService**：支付相关服务
+- **StoreOrderService**：订单管理服务
+- **StoreCouponService**：优惠券服务
+- **UserBrokerageRecordService**：佣金记录服务
+- **UserBillService**：用户账单服务
+- **SystemConfigService**：系统配置服务
+
+## 4. 业务特性
+
+### 4.1 商城基础功能
+- 商品管理（普通商品、秒杀、拼团、砍价）
+- 订单管理
+- 用户管理
+- 支付管理
+- 售后服务
+
+### 4.2 营销功能
+- 优惠券系统
+- 秒杀活动
+- 拼团活动
+- 砍价活动
+- 分销功能
+
+### 4.3 会员系统
+- 会员等级
+- 积分系统
+- 经验值系统
+- 签到系统
+
+### 4.4 统计分析
+- 用户数据统计
+- 订单数据统计
+- 商品数据统计
+- 资金监控
+
+### 4.5 系统管理
+- 权限管理
+- 角色管理
+- 菜单管理
+- 系统配置
+
+## 5. 特色模块
+
+### 5.1 新增酒店和机票模块
+项目在原有商品数据结构基础上扩展了酒店和机票模块，拥有自己附加的数据结构，支持这两种特殊商品类型的销售和管理。
+
+### 5.2 多端支持
+- H5商城
+- 微信公众号
+- 微信小程序
+- App(iOS/Android)
+
+### 5.3 多种支付方式
+- 微信支付
+- 支付宝支付
+- 余额支付
+- 线下支付
+
+## 6. 代码规范与设计模式
+
+### 6.1 代码规范
+- 采用阿里巴巴Java开发手册规范
+- 使用统一的命名规范和注释风格
+- 控制器使用RESTful API设计
+
+### 6.2 常用设计模式
+- 单例模式：配置类和工具类
+- 工厂模式：各种服务的创建
+- 策略模式：支付方式、存储方式等
+- 代理模式：服务层的实现
+- 观察者模式：事件通知机制
+
+## 7. 部署与运维
+
+### 7.1 部署方式
+- 支持Docker容器化部署
+- 支持传统Tomcat部署
+
+### 7.2 监控与日志
+- 使用logback进行日志记录
+- 支持与logstash集成 

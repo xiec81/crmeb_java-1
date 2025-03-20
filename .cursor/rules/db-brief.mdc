@@ -1,0 +1,64 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+1. 核心表结构
+| 表名 | 说明 | 主键 | 关键字段 |
+|------|------|------|----------|
+| eb_user | 用户表 | uid | account, phone, nickname, status |
+| eb_store_order | 订单表 | id | orderId, uid, status, payStatus |
+| eb_store_product | 商品表 | id | storeName, price, stock, isShow |
+| eb_store_category | 商品分类表 | id | name, pid |
+| eb_store_cart | 购物车表 | id | uid, productId, cartNum |
+| eb_store_order_cart_info | 订单商品信息表 | id | orderId, productId, cartInfo |
+| eb_store_product_attr | 商品属性表 | id | productId, attrName, attrValues |
+| eb_store_product_attr_value | 商品属性值表 | id | productId, attrId, attrValue |
+2. 状态字段及变迁
+| 表名 | 状态字段 | 状态值 | 说明 |
+|------|----------|--------|------|
+| eb_user | status | 0-禁用, 1-正常 | 用户状态 |
+| eb_store_order | status | 0-待发货, 1-待收货, 2-待评价, 3-已完成 | 订单状态 |
+| eb_store_order | refundStatus | 0-未退款, 1-申请中, 2-已退款, 3-退款中 | 退款状态 |
+| eb_store_product | isShow | 0-未上架, 1-上架 | 商品上架状态 |
+| eb_store_product | isHot | 0-否, 1-是 | 是否热卖 |
+| eb_store_product | isBest | 0-否, 1-是 | 是否精品 |
+| eb_store_product | isNew | 0-否, 1-是 | 是否新品 |
+3. 对象关系
+| 对象 | 关联对象 | 关系类型 | 关联字段 |
+|------|----------|----------|----------|
+| User | StoreOrder | 一对多 | uid |
+| StoreProduct | StoreCategory | 多对一 | cateId |
+| StoreOrder | StoreOrderCartInfo | 一对多 | orderId |
+| StoreProduct | StoreProductAttr | 一对多 | productId |
+| StoreProductAttr | StoreProductAttrValue | 一对多 | attrId |
+4. 枚举字段
+| 表名 | 字段名 | 枚举值 | 说明 |
+|------|--------|--------|------|
+| eb_store_order | shippingType | 1-快递, 2-门店自提 | 配送方式 |
+| eb_store_order | isChannel | 0-微信公众号, 1-微信小程序, 2-H5, 3-余额, 4-微信AppIos, 5-微信AppIos安卓, 6-支付宝支付, 7-支付宝app支付 | 支付渠道 |
+| eb_store_product | specType | 0-单规格, 1-多规格 | 规格类型 |
+| eb_store_product | activity | 0-默认, 1-秒杀, 2-砍价, 3-拼团 | 活动类型 |
+
+5. 关键业务逻辑
+
+订单状态流转：
+创建订单 -> 待发货(0) -> 待收货(1) -> 待评价(2) -> 已完成(3)
+任何状态都可以申请退款，进入退款流程
+
+商品状态管理：
+商品创建后默认未上架(0)
+上架后可以设置热卖、精品、新品等标签
+支持多规格和单规格两种模式
+可以参与秒杀、砍价、拼团等活动
+
+用户状态管理：
+用户注册后默认正常状态(1)
+可以设置禁用状态(0)
+支持分销员身份(isPromoter)
+
+支付流程：
+支持多种支付渠道
+支付成功后更新订单状态
+支持退款流程
+

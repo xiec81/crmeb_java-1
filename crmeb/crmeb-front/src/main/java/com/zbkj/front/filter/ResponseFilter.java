@@ -28,6 +28,10 @@ public class ResponseFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain)
             throws IOException, ServletException {
+        // 设置响应编码为UTF-8
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json;charset=UTF-8");
+        
         ResponseWrapper wrapperResponse = new ResponseWrapper((HttpServletResponse) response);//转换成代理类
         // 这里只拦截返回，直接让请求过去，如果在请求前有处理，可以在这里处理
         filterChain.doFilter(request, wrapperResponse);
@@ -45,7 +49,7 @@ public class ResponseFilter implements Filter {
             //把返回值输出到客户端
             ServletOutputStream outputStream = response.getOutputStream();
             if (str.length() > 0) {
-                outputStream.write(str.getBytes());
+                outputStream.write(str.getBytes(StandardCharsets.UTF_8));
                 outputStream.flush();
                 outputStream.close();
                 //最后添加这一句，输出到客户端

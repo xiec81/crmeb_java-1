@@ -4,6 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
+import com.alibaba.fastjson.JSONObject;
 import com.github.pagehelper.PageInfo;
 import com.zbkj.common.constants.CategoryConstants;
 import com.zbkj.common.constants.Constants;
@@ -418,6 +419,7 @@ public class ProductServiceImpl implements ProductService {
         }
         CommonPage<IndexProductResponse> productResponseCommonPage = CommonPage.restPage(productResponseArrayList);
         BeanUtils.copyProperties(storeProductCommonPage, productResponseCommonPage, "list");
+        System.out.println("productResponseCommonPage:"+JSONObject.toJSONString(productResponseCommonPage));
         return productResponseCommonPage;
     }
 

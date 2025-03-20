@@ -1,0 +1,221 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ # CRMEB Java项目命名规范
+
+## 1. 类命名规范
+
+### 1.1 基础类命名
+- 使用大驼峰命名法(PascalCase)
+- 类名应该是一个名词
+- 避免使用缩写(除非是广泛使用的缩写)
+- 示例:
+  ```java
+  public class UserController {}
+  public class OrderService {}
+  public class ProductModel {}
+  ```
+
+### 1.2 接口命名
+- 使用大驼峰命名法
+- 通常以I开头(可选)
+- 示例:
+  ```java
+  public interface IUserService {}
+  public interface OrderService {}
+  ```
+
+### 1.3 实现类命名
+- 使用大驼峰命名法
+- 以Impl结尾
+- 示例:
+  ```java
+  public class UserServiceImpl implements IUserService {}
+  public class OrderServiceImpl implements OrderService {}
+  ```
+
+### 1.4 抽象类命名
+- 使用大驼峰命名法
+- 以Abstract开头
+- 示例:
+  ```java
+  public abstract class AbstractBaseService {}
+  ```
+
+### 1.5 异常类命名
+- 使用大驼峰命名法
+- 以Exception结尾
+- 示例:
+  ```java
+  public class BusinessException {}
+  public class ValidationException {}
+  ```
+
+### 1.6 工具类命名
+- 使用大驼峰命名法
+- 以Util结尾
+- 示例:
+  ```java
+  public class DateUtil {}
+  public class StringUtil {}
+  ```
+
+## 2. 方法命名规范
+
+### 2.1 基础方法命名
+- 使用小驼峰命名法(camelCase)
+- 方法名应该是一个动词或动词短语
+- 示例:
+  ```java
+  public void getUserInfo() {}
+  public boolean validateOrder() {}
+  public List<Product> getProductList() {}
+  ```
+
+### 2.2 布尔方法命名
+- 使用is、has、can等开头
+- 示例:
+  ```java
+  public boolean isActive() {}
+  public boolean hasPermission() {}
+  public boolean canDelete() {}
+  ```
+
+### 2.3 获取方法命名
+- 使用get开头
+- 示例:
+  ```java
+  public String getName() {}
+  public int getAge() {}
+  ```
+
+### 2.4 设置方法命名
+- 使用set开头
+- 示例:
+  ```java
+  public void setName(String name) {}
+  public void setAge(int age) {}
+  ```
+
+## 3. 变量命名规范
+
+### 3.1 成员变量命名
+- 使用小驼峰命名法
+- 示例:
+  ```java
+  private String userName;
+  private int orderCount;
+  private List<Product> productList;
+  ```
+
+### 3.2 常量命名
+- 使用全大写下划线分隔
+- 示例:
+  ```java
+  public static final String USER_STATUS_ACTIVE = "ACTIVE";
+  public static final int MAX_RETRY_COUNT = 3;
+  ```
+
+### 3.3 局部变量命名
+- 使用小驼峰命名法
+- 示例:
+  ```java
+  String tempName;
+  int currentIndex;
+  List<Product> filteredProducts;
+  ```
+
+## 4. 包命名规范
+
+### 4.1 基础包命名
+- 使用全小写字母
+- 使用点号分隔
+- 示例:
+  ```java
+  com.zbkj.controller
+  com.zbkj.service
+  com.zbkj.model
+  ```
+
+### 4.2 模块包命名
+- 使用模块名作为包名
+- 示例:
+  ```java
+  com.zbkj.controller.user
+  com.zbkj.service.order
+  com.zbkj.model.product
+  ```
+
+## 5. 特殊命名规则
+
+### 5.1 避免使用的命名
+- 避免使用单字母变量名(除了循环计数器)
+- 避免使用无意义的命名
+- 避免使用拼音命名
+- 示例:
+  ```java
+  // 不推荐
+  String a;
+  int b;
+  String mingzi;
+  
+  // 推荐
+  String userName;
+  int count;
+  String name;
+  ```
+
+### 5.2 推荐的命名
+- 使用有意义的英文单词
+- 使用领域术语
+- 示例:
+  ```java
+  // 推荐
+  String customerName;
+  int orderQuantity;
+  BigDecimal totalAmount;
+  ```
+
+## 6. 命名冲突处理
+
+### 6.1 类名冲突
+- 使用更具体的命名
+- 添加模块前缀
+- 示例:
+  ```java
+  // 不推荐
+  public class User {}
+  public class User {}
+  
+  // 推荐
+  public class SystemUser {}
+  public class CustomerUser {}
+  ```
+
+### 6.2 方法名冲突
+- 使用更具体的动词
+- 添加参数类型信息
+- 示例:
+  ```java
+  // 不推荐
+  public void process() {}
+  public void process() {}
+  
+  // 推荐
+  public void processOrder() {}
+  public void processPayment() {}
+  ```
+
+## 7. 代码生成时的命名检查
+
+### 7.1 生成前检查
+1. 检查目标包中是否存在同名类
+2. 检查是否有相似功能的类
+3. 检查命名是否符合规范
+
+### 7.2 生成后检查
+1. 检查生成的类名是否合适
+2. 检查方法名是否清晰
+3. 检查变量名是否有意义

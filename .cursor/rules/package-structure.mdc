@@ -1,0 +1,163 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ # CRMEB Java项目包结构规范
+
+## 1. 基础包结构
+```
+com.zbkj
+  ├── common          // 公共模块
+  │   ├── config     // 配置类
+  │   ├── constant   // 常量类
+  │   ├── exception  // 异常类
+  │   ├── model      // 数据模型
+  │   └── utils      // 工具类
+  ├── service        // 服务层
+  │   ├── impl      // 服务实现
+  │   └── interfaces // 服务接口
+  └── controller     // 控制器层
+```
+
+## 2. 包命名规范
+
+### 2.1 控制器包
+- 位置: com.zbkj.controller
+- 命名: 模块名.controller
+- 示例: 
+  - com.zbkj.controller.user
+  - com.zbkj.controller.order
+  - com.zbkj.controller.product
+
+### 2.2 服务包
+- 位置: com.zbkj.service
+- 命名: 模块名.service
+- 示例:
+  - com.zbkj.service.user
+  - com.zbkj.service.order
+  - com.zbkj.service.product
+
+### 2.3 数据模型包
+- 位置: com.zbkj.common.model
+- 命名: 模块名.model
+- 示例:
+  - com.zbkj.common.model.user
+  - com.zbkj.common.model.order
+  - com.zbkj.common.model.product
+
+### 2.4 工具类包
+- 位置: com.zbkj.common.utils
+- 命名: 功能名.utils
+- 示例:
+  - com.zbkj.common.utils.date
+  - com.zbkj.common.utils.string
+  - com.zbkj.common.utils.file
+
+## 3. 类命名规范
+
+### 3.1 控制器类
+- 命名: XxxController
+- 示例: UserController, OrderController
+
+### 3.2 服务接口
+- 命名: XxxService
+- 示例: UserService, OrderService
+
+### 3.3 服务实现
+- 命名: XxxServiceImpl
+- 示例: UserServiceImpl, OrderServiceImpl
+
+### 3.4 数据模型
+- 命名: Xxx
+- 示例: User, Order, Product
+
+### 3.5 工具类
+- 命名: XxxUtil
+- 示例: DateUtil, StringUtil
+
+## 4. 特殊模块包结构
+
+### 4.1 酒店模块
+```
+com.zbkj
+  ├── controller
+  │   └── hotel
+  ├── service
+  │   └── hotel
+  └── common
+      └── model
+          └── hotel
+```
+
+### 4.2 机票模块
+```
+com.zbkj
+  ├── controller
+  │   └── flight
+  ├── service
+  │   └── flight
+  └── common
+      └── model
+          └── flight
+```
+
+## 5. 代码生成规则
+
+### 5.1 生成前检查
+1. 检查目标包是否存在同名类
+2. 检查是否有相似功能的类
+3. 确认是否需要合并或重构
+
+### 5.2 生成位置规则
+1. 控制器类必须生成在对应的controller包下
+2. 服务类必须生成在对应的service包下
+3. 数据模型必须生成在common.model包下
+4. 工具类必须生成在common.utils包下
+
+### 5.3 命名冲突处理
+1. 如果存在同名类，优先考虑合并功能
+2. 如果功能不同，使用更具体的命名
+3. 如果是不同模块的类，使用模块前缀区分
+
+## 6. 示例
+
+### 6.1 用户模块示例
+```
+com.zbkj
+  ├── controller
+  │   └── user
+  │       ├── UserController.java
+  │       └── UserAddressController.java
+  ├── service
+  │   └── user
+  │       ├── UserService.java
+  │       ├── UserServiceImpl.java
+  │       ├── UserAddressService.java
+  │       └── UserAddressServiceImpl.java
+  └── common
+      └── model
+          └── user
+              ├── User.java
+              └── UserAddress.java
+```
+
+### 6.2 订单模块示例
+```
+com.zbkj
+  ├── controller
+  │   └── order
+  │       ├── StoreOrderController.java
+  │       └── OrderRefundController.java
+  ├── service
+  │   └── order
+  │       ├── StoreOrderService.java
+  │       ├── StoreOrderServiceImpl.java
+  │       ├── OrderRefundService.java
+  │       └── OrderRefundServiceImpl.java
+  └── common
+      └── model
+          └── order
+              ├── StoreOrder.java
+              └── OrderRefund.java
+```

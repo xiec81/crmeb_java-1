@@ -1183,52 +1183,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
         return CommonPage.copyPageInfo(recordPageInfo, responseList);
     }
 
-//    /**
-//     * 根据推广级别和其他参数获取推广列表
-//     *
-//     * @param request 推广层级和推广时间参数
-//     * @return 推广订单列表
-//     */
-//    @Override
-//    public PageInfo<SpreadOrderResponse> getOrderListBySpreadLevel(RetailShopStairUserRequest request, PageParamRequest pageParamRequest) {
-//        // 获取推广人列表
-//        if (ObjectUtil.isNull(request.getType())) {
-//            request.setType(0);
-//        }
-//        List<User> userList = getSpreadListBySpreadIdAndType(request.getUid(), request.getType());
-//        if (CollUtil.isEmpty(userList)) {
-//            return new PageInfo<>();
-//        }
-//
-//        List<Integer> userIds = userList.stream().map(User::getUid).distinct().collect(Collectors.toList());
-//        // 获取推广人订单号集合
-//        List<StoreOrder> orderList = storeOrderService.getOrderListStrByUids(userIds, request);
-//        if (CollUtil.isEmpty(orderList)) {
-//            return new PageInfo<>();
-//        }
-//        List<String> orderNoList = CollUtil.newArrayList();
-//        Map<String, StoreOrder> orderMap = CollUtil.newHashMap();
-//        orderList.forEach(e -> {
-//            orderNoList.add(e.getOrderId());
-//            orderMap.put(e.getOrderId(), e);
-//        });
-//        // 获取用户佣金记录
-//        PageInfo<UserBrokerageRecord> recordPageInfo = userBrokerageRecordService.findListByLinkIdsAndLinkTypeAndUid(orderNoList, BrokerageRecordConstants.BROKERAGE_RECORD_LINK_TYPE_ORDER, request.getUid(), pageParamRequest);
-//        List<SpreadOrderResponse> responseList = recordPageInfo.getList().stream().map(e -> {
-//            SpreadOrderResponse response = new SpreadOrderResponse();
-//            StoreOrder storeOrder = orderMap.get(e.getLinkId());
-//            response.setId(storeOrder.getId());
-//            response.setOrderId(storeOrder.getOrderId());
-//            response.setRealName(storeOrder.getRealName());
-//            response.setUserPhone(storeOrder.getUserPhone());
-//            response.setPrice(e.getPrice());
-//            response.setUpdateTime(e.getUpdateTime());
-//            return response;
-//        }).collect(Collectors.toList());
-//
-//        return CommonPage.copyPageInfo(recordPageInfo, responseList);
-//    }
-
     /**
      * 获取推广人列表
      *
@@ -1500,6 +1454,45 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
         lqw.eq(User::getPhone, phone);
         return userDao.selectOne(lqw);
+    }
+
+    public User getByAccount(String account) {
+        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
+        lqw.eq(User::getAccount, account);
+        return userDao.selectOne(lqw);
+    }
+
+    /**
+     * 根据邮箱查询用户
+     * @param email 用户邮箱
+     * @return 用户信息
+     */
+    @Override
+    public User getByEmail(String email) {
+        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
+        lqw.eq(User::getEmail, email);
+        return userDao.selectOne(lqw);
+    }
+
+    /**
+     * 根据推广码查询用户
+     * @param spreadCode 推广码
+     * @return 用户信息
+     */
+    @Override
+    public User getBySpreadCode(String spreadCode) {
+        LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
+        lqw.eq(User::getSpreadCode, spreadCode);
+        return userDao.selectOne(lqw);
+    }
+
+    /**
+     * 获取默认用户头像
+     * @return 默认头像地址
+     */
+    @Override
+    public String getDefaultAvatar() {
+        return systemConfigService.getValueByKey(Constants.USER_DEFAULT_AVATAR_CONFIG_KEY);
     }
 
     /**

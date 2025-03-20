@@ -1,0 +1,1560 @@
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.710",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.719",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.726",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.732",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.733",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.739",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.748",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-12",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.758",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.770",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.777",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.794",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.802",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.809",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 17:35:58.817",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.664",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.675",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.680",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.686",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-12",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.690",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.d.LoggingFailureAnalysisReporter",
+                    "message": "
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.692",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.697",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.718",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.733",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.743",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.767",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderAutoCompleteTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreOrderDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreOrderDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.773",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.a.task.integral.IntegralFrozenTask",
+                    "message": "IntegralFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserIntegralRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserIntegralRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.778",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.coupon.CouponOverdueTask",
+                    "message": "CouponOverdueTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/StoreCouponUserDao.java (best guess)
+### The error may involve com.zbkj.service.dao.StoreCouponUserDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:22:57.785",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "BrokerageFrozenTask.task | msg : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt
+### The error may exist in com/zbkj/service/dao/UserBrokerageRecordDao.java (best guess)
+### The error may involve com.zbkj.service.dao.UserBrokerageRecordDao.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: interrupt" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.362",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.368",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.372",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.378",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.382",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.386",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.390",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.394",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-12",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:25:13.399",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.389",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.398",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.414",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-17",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.424",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.434",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.446",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.456",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-6",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.467",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:26:13.478",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-18",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.487",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.502",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-25",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.509",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.556",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-24",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.587",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.662",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-12",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.719",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-23",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.751",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-22",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:27:13.828",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-21",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.519",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-27",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.530",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-28",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.538",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-27",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.610",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.763",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-29",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:13.899",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-30",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:14.088",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-14",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:14.277",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-29",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:28:14.324",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-17",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:13.687",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:13.742",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-19",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:13.958",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-20",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.150",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-18",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.324",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.419",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.440",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-24",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.474",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:29:14.496",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:13.756",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-23",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:13.844",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-22",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.227",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.276",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.523",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.544",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-27",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.582",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-28",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.643",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-21",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:30:14.662",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:13.780",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-14",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:13.871",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.258",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.305",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.550",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.567",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.603",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-19",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.679",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-20",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:31:14.689",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:13.798",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-10",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:13.905",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-18",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.290",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.332",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-24",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.666",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-23",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.707",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.739",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-22",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.789",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-23",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:32:14.755",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:13.821",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-1",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:13.929",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-27",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.297",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-28",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.344",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-21",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.701",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.731",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.764",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.810",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-29",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:33:14.815",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-17",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:13.850",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:13.959",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-19",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.315",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-20",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.361",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.721",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-18",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.752",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-3",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.780",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-24",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.828",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-7",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:34:14.842",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-9",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:13.875",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-2",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.024",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-22",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.334",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-23",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.381",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-4",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.740",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-28",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.772",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-21",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.799",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-5",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.844",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-30",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:35:14.853",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-30",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:13.893",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-16",
+                    "class": "c.z.a.t.w.AsyncWeChatPublicTempMessage",
+                    "message": "AsyncWeChatPublicTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.034",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-13",
+                    "class": "c.z.a.t.w.AsyncWeChatProgramTempMessage",
+                    "message": "AsyncWeChatProgramTempMessage.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.340",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-11",
+                    "class": "c.z.admin.task.order.OrderPaySuccessTask",
+                    "message": "OrderPaySuccessTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.401",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-29",
+                    "class": "c.z.admin.task.order.OrderCompleteTask",
+                    "message": "OrderCompleteTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.760",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-15",
+                    "class": "c.zbkj.admin.task.order.OrderCancelTask",
+                    "message": "OrderCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.792",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-19",
+                    "class": "c.z.admin.task.product.ProductStockTask",
+                    "message": "OrderTakeByUser.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.822",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-20",
+                    "class": "c.z.admin.task.order.OrderAutoCancelTask",
+                    "message": "OrderAutoCancelTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.853",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.zbkj.admin.task.order.OrderRefundTask",
+                    "message": "OrderRefundTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:14.860",
+                    "level": "ERROR",
+                    "thread": "crmeb-scheduled-task-pool-8",
+                    "class": "c.zbkj.admin.task.order.OrderReceiptTask",
+                    "message": "OrderReceiptTask.task | msg : Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:47.034",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.s.b.web.embedded.tomcat.TomcatStarter",
+                    "message": "Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cachesEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/cache/CachesEndpointAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cachesEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"" }
+                    
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:36:47.116",
+                    "level": "ERROR",
+                    "thread": "main",
+                    "class": "o.springframework.boot.SpringApplication",
+                    "message": "Application run failed" }
+                    
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zbkj.admin.CrmebAdminApplication.main(CrmebAdminApplication.java:35)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cachesEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/cache/CachesEndpointAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cachesEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5140)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cachesEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/cache/CachesEndpointAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cachesEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cachesEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/cache/CachesEndpointAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cachesEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:143)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:133)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:122)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:116)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1508)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1472)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 74 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 91 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.password' in value "${spring.redis.password}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 112 common frames omitted
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:43:05.353",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:44:11.973",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:45:11.515",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-12",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:50:36.464",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-2",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+{
+                    "app": "Crmeb",
+                    "timestamp":"2025-03-18 18:50:47.640",
+                    "level": "ERROR",
+                    "thread": "http-nio-8080-exec-19",
+                    "class": "o.a.c.c.C.[.[.[/].[dispatcherServlet]",
+                    "message": "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception" }
+                    
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)

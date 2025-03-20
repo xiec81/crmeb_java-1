@@ -32,7 +32,7 @@ import java.util.List;
  *  +----------------------------------------------------------------------
  */
 @Slf4j
-@RestController("ProductController")
+@RestController
 @RequestMapping("api/front")
 @Api(tags = "商品")
 public class ProductController {

@@ -22,6 +22,9 @@ public class SmsConstants {
 
     /** 手机验证码redis key */
     public static final String SMS_VALIDATE_PHONE = "sms:validate:code:";
+    
+    /** 邮箱验证码redis key */
+    public static final String SMS_VALIDATE_EMAIL = "email:validate:code:";
 
     /**
      * ---------------------
@@ -103,7 +106,15 @@ public class SmsConstants {
     public static final int SMS_CONFIG_TYPE_PRICE_REVISION_SWITCH = 9;
     /** 订单未支付 */
     public static final int SMS_CONFIG_TYPE_ORDER_PAY_FALSE = 10;
+    /** 邮箱验证码 */
+    public static final int SMS_CONFIG_TYPE_EMAIL_VERIFICATION_CODE = 11;
 
     /** 发送短信参数模板 */
     public static final String SMS_COMMON_PARAM_FORMAT = "param[{}]";
+    
+    /** 邮箱验证码主题 */
+    public static final String EMAIL_VERIFY_SUBJECT = "CRMEB验证码";
+    
+    /** 邮箱验证码内容模板 */
+    public static final String EMAIL_VERIFY_CONTENT = "您的验证码是：{}，请在5分钟内使用。";
 }
